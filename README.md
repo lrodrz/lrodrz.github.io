@@ -8,8 +8,10 @@ https://github.com/lrodrz/lrodrz.github.io
 
 The website is at: 
 
-lrodrz.github.io
+https://lrodrz.github.io
 
 
-This was built using jekyll 
+
+The website was built using jekyll and the following guide: 
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 

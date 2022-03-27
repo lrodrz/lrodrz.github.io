@@ -18,13 +18,35 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll -->
 
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+
+
 Welcome to my blog! My name is Larry Rodriguez. I made this blog to document my progress and work out my methodology for working with machine learning algorithms. 
 
-# Some background on me: 
+
+<div class="container">
+<a href="https://imgbb.com/"><img width="500" img src="https://i.ibb.co/SNKLbTp/csulapic.png" alt="csulapic" border="0"></a>
+<p>Picture: CSULA with the Annenberg Science Complex shown. By: Me!</p>
+</div>
+
+## Some Background on Me: 
 
 I am recent graduate in Biology and Biochemistry from California State University, Los Angeles and I hope to get into data science to analyize big data with one day analyzing gene editing through machine learning algorithms. Coming out of college, I belive that I am only at the begining of my journey into this line of work and I hope to learn as I go. Here on this website I am documenting my process.
 
 
-# Why Chronos?  
+## Why Chronos?  
 
 Albert Einstein once said that time is "a stubbornly persistent illusion". This blog and many other things I have made and modeled follow this same ideology. Thats why I picked the name Chronos for my blog I name a lot of my projects after greek gods to stay into a theme for all my projects and I thought Chronos was a fun name to comment on the time situation we all find ourselves in. 
