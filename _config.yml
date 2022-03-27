@@ -27,6 +27,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  lrodrz
+youtube: Larry Rodriguez
+youtube_channel: UCtZ_cpSlK51Qhw4ZxPAmNVQ
+youtube_channel_name: Larry Rodriguez
 
 # Build settings
 theme: minima
@@ -35,6 +38,9 @@ minima:
   date_format: "%b %-d, %Y"
 plugins:
   - jekyll-feed
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

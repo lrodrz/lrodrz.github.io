@@ -27,4 +27,4 @@ I am recent graduate in Biology and Biochemistry from California State Universit
 
 # Why Chronos?  
 
-Albert Einstein once said that time is "a stubornly persisent illusion". This blog and many other things I have made and modeled follow this same ideology. 
+Albert Einstein once said that time is "a stubbornly persistent illusion". This blog and many other things I have made and modeled follow this same ideology. Thats why I picked the name Chronos for my blog I name a lot of my projects after greek gods to stay into a theme for all my projects and I thought Chronos was a fun name to comment on the time situation we all find ourselves in. 

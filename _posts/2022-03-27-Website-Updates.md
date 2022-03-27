@@ -5,6 +5,11 @@ date:   2022-03-27 00:00:18 -0700
 categories: updates
 ---
 
+
+![coffee](https://i.postimg.cc/sfMwPpZg/IMG-6365.jpg "yeet")
+
+
+
 # Updates
 Well today's work has been one of installing a bunch of ruby files and dependencies and then trying to figure out the subtleties of setting up the website. 
 
@@ -25,6 +30,8 @@ The next thing to do after finishing up this website is to add some more informa
 The two that I will hopefully be able to get to asap are 52predict and another based on my current research in Dr. Sodes lab in vibrational frequencies. 
 
 Another thing that I want to work on in the machine learning landscape is to make a predictor for gene editing. I will put some thought into this as far as finding out how to put in inputs and outputs but hopefully later I will have something to begin coding. 
+
+
 
 # Issues: 
 
