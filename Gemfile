@@ -12,9 +12,9 @@ gem "jekyll", "~> 4.2.2"
 
 #IN CASE THERE IS AN ERROR DUE TO THE REPO THE LAST STABLE WAS:
 # below uncomment to get back to stable release
-#gem "minima", "~>2.5"
+gem "minima", "~>2.5"
 
-gem "minima", git: "https://github.com/jekyll/minima"
+#gem "minima", git: "https://github.com/jekyll/minima"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
