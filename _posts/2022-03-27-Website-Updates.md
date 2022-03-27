@@ -4,26 +4,39 @@ title:  "Website Updates"
 date:   2022-03-27 00:00:18 -0700
 categories: updates
 ---
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <a title="My Morning Coffee" href="https://i.postimg.cc/sfMwPpZg/IMG-6365.jpg"><img width="700" alt="My Morning Coffee &amp; Morning Coffee" src="https://i.postimg.cc/sfMwPpZg/IMG-6365.jpg"></a>
+</div>
+
+<!-- 
+INSERT PICTURE ABOVE: It's all setup to allow for centering. 
+ -->
 
 
-![coffee](https://i.postimg.cc/sfMwPpZg/IMG-6365.jpg "yeet")
-
-
-
-# Updates
+## Updates
 Well today's work has been one of installing a bunch of ruby files and dependencies and then trying to figure out the subtleties of setting up the website. 
 
 I used the following guides to set up the website: 
 
-#### Github Pages Guide: 
+<a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">Github-Pages Guide</a>
 
-`https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll`
+<a href="https://jekyllrb.com/docs/"> Jekyll Quickstart Guide</a>
 
-#### Jekylls Website: 
-
-`https://jekyllrb.com/docs/`
-
-# Upcomming:
+## Upcomming:
 
 The next thing to do after finishing up this website is to add some more information about myself and my background and talk about my current projects in machine learning. 
 
@@ -33,7 +46,7 @@ Another thing that I want to work on in the machine learning landscape is to mak
 
 
 
-# Issues: 
+## Issues: 
 
 I'm Having a problem with the following in my gemfile. When following the github guide for using github-pages. 
 
