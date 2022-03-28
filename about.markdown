@@ -44,9 +44,9 @@ Welcome to my blog! My name is Larry Rodriguez. I made this blog to document my 
 
 ## Some Background on Me: 
 
-I am recent graduate in Biology and Biochemistry from California State University, Los Angeles and I hope to get into data science to analyize big data with one day analyzing gene editing through machine learning algorithms. Coming out of college, I belive that I am only at the begining of my journey into this line of work and I hope to learn as I go. Here on this website I am documenting my process.
+I am recent graduate in Biology and Biochemistry from California State University, Los Angeles and I hope to get into data science to analyze big data with one day analyzing gene editing through machine learning algorithms. Coming out of college, Here on this website I am documenting my process and progress as I move from recent graduate to professional researcher.
 
 
 ## Why Chronos?  
 
-Albert Einstein once said that time is "a stubbornly persistent illusion". This blog and many other things I have made and modeled follow this same ideology. Thats why I picked the name Chronos for my blog I name a lot of my projects after greek gods to stay into a theme for all my projects and I thought Chronos was a fun name to comment on the time situation we all find ourselves in. 
+Albert Einstein once said that time is "a stubbornly persistent illusion". This blog and many other things I have made and modeled follow this same ideology. Thats why I picked the name Chronos for my blog. I name a lot of my projects after greek gods to stay into a theme and I thought Chronos was a fun name that comments on the time situation we all find ourselves in. 
