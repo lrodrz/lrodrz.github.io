@@ -15,12 +15,8 @@ permalink: /research/
     line-height: 1;
     letter-spacing: -1px;
   }
-  
-  p { text-indent: 25px; 
-  }
-  
-  p2 {
-  }
+  p { text-indent: 25px; }
+  p2 {}
 </style>
 
 ## Sode Lab:
@@ -29,7 +25,7 @@ Theoretical computational chemistry and vibrational spectroscopy.</div>
 
 <br>
 <p>
-The theme of Sode group is to investigate the theoretical chemistry of rare-gas system for the eluciation of the nature of weakly bound systems.</p>
+The theme of the Sode Lab is to investigate the theoretical chemistry of rare-gas system for the elucidation  of the nature of weakly bound systems.</p>
 
 
 <br>
@@ -46,5 +42,11 @@ The theme of Sode group is to investigate the theoretical chemistry of rare-gas 
 will have to come back later to find out a better solution. 
 https://stackoverflow.com/questions/31480030/jekyll-link-to-posts-from-pages -->
 
-[Research Update: Mar-27-2022]({% post_url 2022-03-27-Research %})
+
+<h4>
+<a href="/Research/2022/03/27/Research.html">Research Update: Mar-27-2022</a></h4>
+<p>--- In this post, I talk about my recent research progress and the necessity of my research in vibrational frequencies.</p>
+
+
+
 
