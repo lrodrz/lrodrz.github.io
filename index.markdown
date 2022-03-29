@@ -27,6 +27,4 @@ layout: home
 </div>
 
 
-Welcome to the blog! This site is under construction at the moment. More things will be available soon! In the meantime checkout my updates below!
-
-c:
+Welcome to the blog! This site is under construction at the moment. More things will be available soon! In the meantime checkout my updates below!! 
