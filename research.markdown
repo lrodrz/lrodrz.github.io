@@ -44,7 +44,7 @@ https://stackoverflow.com/questions/31480030/jekyll-link-to-posts-from-pages -->
 
 
 <h4>
-<a href="/Research/2022/03/27/Research.html">Research Update: Mar-27-2022</a></h4>
+<a href="/research/2022/03/27/Research.html">Research Update: Mar-27-2022</a></h4>
 <p>--- In this post, I talk about my recent research progress and the necessity of my research in vibrational frequencies.</p>
 
 
