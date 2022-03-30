@@ -38,7 +38,7 @@ Welcome to my blog! My name is Larry Rodriguez. I made this blog to document my 
 
 
 <div class="container">
-<a href="https://imgbb.com/"><img width="500" img src="https://i.ibb.co/SNKLbTp/csulapic.png" alt="csulapic" border="0"></a>
+<img width="500" img src="https://i.ibb.co/SNKLbTp/csulapic.png" alt="csulapic" border="0"></a>
 <p>Picture: CSULA with the Annenberg Science Complex shown. By: Me!</p>
 </div>
 

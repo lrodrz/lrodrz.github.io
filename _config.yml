@@ -33,10 +33,12 @@ youtube_channel: UCtZ_cpSlK51Qhw4ZxPAmNVQ
 youtube_channel_name: Larry Rodriguez
 markdown: kramdown
 # Build settings
+
 theme: minima
 minima:
   skin: dark
   date_format: "%b %-d, %Y"
+
 plugins:
   - jekyll-feed
 
