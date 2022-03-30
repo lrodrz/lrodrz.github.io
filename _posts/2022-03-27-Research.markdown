@@ -22,83 +22,153 @@ use_math: true
 
 #### Mar-27-2022:
 
-<p>I'm currently working on investigating the vibrational frequencies of Kr-CO<sub>2</sub> and Ne-CO<sub>2</sub> vibrational frequencey van der Waals complexes. An additional project I will be working on soon is building a machine learning model to predict vibrational frequencies given a configuration of a Ar-CO<sub>2</sub> complex using an neural network built through Tensorflow. This will be using the supplemental information repository from a previously published paper from the Sode Lab. You can find it at: <a href="https://github.com/sodelab/SI_CO2Ar">SI_CO2Ar</a> </p>
+<p>I'm currently working on investigating the vibrational frequencies of Kr-CO<sub>2</sub> and Ne-CO<sub>2</sub> vibrational frequency van der Waals complexes. An additional project I will be working on soon is building a machine learning model to predict vibrational frequencies given a configuration of a Ar-CO<sub>2</sub> complex using an neural network built through Tensorflow. This will be using the supplemental information repository from a previously published paper from the Sode Lab. You can find it at: <a href="https://github.com/sodelab/SI_CO2Ar">SI_CO2Ar</a> </p>
  
  
 
 
-### Why is this research important? 
+### Why this research is important: 
 
 
 
-<p>We begin our story with the Keeling Curve which shows the increasing emissions of CO<sub>2</sub> over time. This graph is correlated to the global trend of rising average temperatures. The keeling curve is composed of a few parts. First we see that there is a small sinusoidal pattern in the fine detail of the curve this wave pattern is due to the season variation, when the leaves bloom and die as the temperature changes over the four seasons: winter, spring, summer, fall. We see although there is a seasonal variation accounting for some wave pattern the overall trend of the curve is moving upward as we move from 1960 to 2020. </p>
+<p>We begin our story with the Keeling curve which shows the increasing emissions of CO<sub>2</sub> over time. This graph is correlated to the global trend of rising average temperatures. The keeling curve is composed of a few parts. First we see that there is a small sinusoidal pattern in the fine detail of the curve this wave pattern is due to the season variation, when the leaves bloom and die as the temperature changes over the four seasons: winter, spring, summer, fall. We see although there is a seasonal variation accounting for some wave pattern the overall trend of the curve is moving upward as we move from 1960 to 2020. </p>
+
 
 <br>
 
 <div class="container">
 <a title="Keeling Curve" href="https://en.wikipedia.org/wiki/Keeling_Curve"><img width="700" alt="Keeling Curve &amp; Keeling Curve" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mauna_Loa_CO2_monthly_mean_concentration.svg/800px-Mauna_Loa_CO2_monthly_mean_concentration.svg.png"></a>
 </div>
-<p2>Image: Keeling curve data from Dr. Pieter Tans, NOAA/ESRL and Dr. Ralph Keeling, Scripps Institution of Oceanography. </p2>
+<h5><i>Fig. 1</i>: Keeling curve data from Dr. Pieter Tans, NOAA/ESRL and Dr. Ralph Keeling, Scripps Institution of Oceanography. We see that there is a wave pattern in the fine detail of the graph due to season variation of consumption of carbon dioxide in plants but in general the trend is moving upwards as indicated by the thick blue line in the center of the increasing sinusoidal wave function.</h5>
+
 
 <br>
 
-### Why is carbon dioxide such a big deal? 
+### Why Carbon Dioxide is Such a Big Deal:
 
 
-<p>Well, it has to do with the absorption of energy of CO<sub>2</sub>. Carbon dioxide is an excellent absorber of energy. Sunlight, therefore, being a source of energy is absorbed by carbon dioxide and produces what is known as the greenhouse effect <sub>[2]</sub>.</p>
+<p>Well, it has to do with the absorption of energy of CO<sub>2</sub>. Carbon dioxide is an excellent absorber of energy. Sunlight, therefore, being a source of energy is absorbed by carbon dioxide and produces what is known as the greenhouse effect <sub>[2]</sub>.</p> 
 
 
-<p>Our study comes into play when we discuss the absorption of energy in CO<sub>2</sub>. According to Fomichev and co-workers, carbon dioxide absorbs sunlight (solar energy) in the near infrared region of the electromagnetic spectrum causing the molecule to excite into the anti-symmetric vibrational frequency mode.</p> 
 <br>
 
+<div class="container">
+<a title="Efbrazil, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Greenhouse_effect"><img width="512" alt="Climate Change Schematic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Climate_Change_Schematic.svg/512px-Climate_Change_Schematic.svg.png"></a>
+</div>
+<h5><i>Fig. 1a</i>: A simple diagram explaining the greenhouse effect. This comes from a greater topic on earths energy budget model where certain  attributes of the earth such as the surface of the earth, the clouds and atmosphere are partially reflected back from the earth and some of that energy is absorbed by the earth in the form of heat. Of course, there is also some heat generated by the earth itself as well. Check out wikipedias article on <a href="https://en.wikipedia.org/wiki/Earth%27s_energy_budget">Earths energy budget</a></h5>
+
+<br>
+
+<p>Sunlight in itself is not a simple signal in the electromagnetic spectrum. Visible light is between 400nm and 700nm.However, being a black body radiator, the suns irradiance to the earth is given through many regions of the electromagentic spectrum. The figure below shows some of the notable regions of the electromagnetic spectrum that solar irradiance goes through and is absorbed by.    </p>
+
+<br>
+
+<div class="container">
+<a title="Robert A. Rohde, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Sunlight"><img width="512" alt="Solar spectrum en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Solar_spectrum_en.svg/512px-Solar_spectrum_en.svg.png"></a>
+</div>
+<h5>Fig 1b: Sunlight has a diverse electromagentic spectrum. In this image we see wavelength on the x axis and solar irradiance in the y axis. A black line outlines a typical 5525K blackbody radiation while the yellow area shows the unabsorped solar irridiance with the orange area showing all of the unabsorbed sunlight at sea level. The blue text shows the wavelength regions in the electromagnetic spectrum where the sunlight is absorbed. Note the declining peaks of the orange area where the absorption of sunlight has taken place due to oxygen, water, and carbon dioxide. </h5>
+
+
+<br>
+
+### Where Our Research Fits In:
+
+<p>Our study comes into play when we discuss the absorption of energy in CO<sub>2</sub>. According to Fomichev and co-workers, carbon dioxide absorbs sunlight (solar energy) in the near infrared region of the electromagnetic spectrum causing the molecule to excite into the anti-symmetric vibrational frequency mode. Vibrational spectroscopists know this as the $\nu_3$ normal mode of CO<sub>2</sub>.</p>
+
+<br>
+
+<div class="container">
+<a title="NASA, Robert Rohde, Public domain, via Wikimedia Commons" href="https://earthobservatory.nasa.gov/features/EnergyBalance/page7.php"><img width="800" alt="CO2 H2O absorption atmospheric gases unique pattern energy wavelengths of energy transparent to others" src="https://upload.wikimedia.org/wikipedia/commons/5/57/CO2_H2O_absorption_atmospheric_gases_unique_pattern_energy_wavelengths_of_energy_transparent_to_others.png"></a></div>
+
+<h5><i>Fig. 1c</i>: The absorption frequency of water vapor and greenhouse gases. The X axis is shown in $\mu$m from  1$\mu$m to 30$\mu$m which is $1 \cdot 10^3$nm to $3 \cdot 10^4$nm or  the same as $1\cdot 10^7$cm<sup>-1</sup> to $3.33\cdot10^2$cm<sup>-1</sup>  or $1\cdot 10^4$ to $1\cdot 10^5$ angstroms. The graph depicts a high absorption for CO<sub>2</sub> between  833cm<sup>-1</sup> and 500cm<sup>-1</sup> which is the mid infrared to far infrared region of the electromagnetic spectrum.</h5>
+
+<br>
+
+<p>Robert Rohde and NASA Earth Observatory show in figure 1c above that the absorption of carbon dioxide happens at the mid to far infrared regions of the electromagnetic spectrum. Spectroscopists define this through spectrometers.[8] They explain that water vapor also absorbs in certain wavelengths but that there is a gap in that water absorption where water vapor does not absorb energy. It is this place that is known as the 'water vapor window' where the energy emitted by earth and the sun would escape into space. Carbon Dioxide's absorption wavelength are in this region causing what NASA Earth Observatory states is a 'closing' of the water vapor window. The absorption of these wavelengths of energy cause carbon dioxide to enter its excited vibrational modes. </p>
+
+<br>
 
 <div class="container">
 <a title="Microwave Standing Waves Diagram" href="https://meridian.allenpress.com/jfp/article/43/8/629/188431/Design-and-Use-of-Domestic-Microwave-Ovens"><img src="https://i.ibb.co/jMFwXxn/Screen-Shot-2022-03-28-at-6-04-18-AM.png" alt="microwave oven schematic" width="600"></a>
 </div>
-<p2>Image: Here we see a digram depicting the excitation of molecules in food by a conventional cooking microwave. By: P. J. Annis et al. 1980.</p2> 
+<h5><i>Fig. 2</i>: Here we see a digram depicting the excitation of molecules in food by a conventional cooking microwave. Food in a microwave is heated through the rotations and vibrations of water molecules via a standing microwave, the turning plate upon which the food plate rests is rotated through this rotating microwave standing wave field cooking the food more evenly. Figure By: P. J. Annis et al. 1980.</h5> 
 
 <br>
 <p>Think of vibrational frequencies and vibrating molecules kind of like how food is cooked in a microwave, we cook the food using a microwave signal generated by the microwaves magnetron causing the rotation and vibration of the molecules of water in your food <sub>[3][4]</sub>. This same effect is happening with the solar radiation from the sun hitting the carbon dioxide molecules in the atmosphere. </p>
 
+<br>
+
 <div class="container">
 <img title="Bending mode of CO2" src="https://i.ibb.co/YLX2tXt/gif-bending.gif" alt="gif-bending" width="600">
 </div>
-<p2>Image: A degenerate bending mode of CO<sub>2</sub> By: Me.
-</p2>
+<h5><i>Fig. 3</i>: This gif animation shows the $\nu_2$ degenerate bending mode of CO<sub>2</sub>. There are four normal modes of vibration in CO<sub>2</sub>. Two of those modes have the same energy which is known as the $\nu_2$  mode. You can see these two degenerate bending modes depicted in figure 4 where the two modes become distinct in energy when a third molecule is introduced to the system via a van der Waals bond. By: Me. Using Gaussian 09. 
+</h5>
 
 <br>
 <p>The work of the Sode Lab is the explain these vibrational excitations known as vibrational frequencies using computational theoretical chemistry and machine learning in van der Waals Complexes. In studying the van der Waals complexes we can study the vibrations of the carbon dioxide molecule and the impact that outside atoms and molecules affect its vibrational frequency. 
 </p>
 
-<p>Currently, we are using Rg-CO<sub>2</sub> complexes (Rg = He, Ne, Ar, Xe) to build potential energy surfaces using vibrational frequencies to investigate the nature of the weak molecular bonds, investigate the nature of the vibrational frequencies and their attribution to the chemical nature of the van der waals complexes. </p>
+<p>Currently, we are using Rg-CO<sub>2</sub> complexes (Rg = He, Ne, Ar, Xe) to build potential energy surfaces using vibrational frequencies to investigate the nature of the weak molecular bonds, investigate the nature of the vibrational frequencies and their attribution to the chemical nature of the van der Waals complexes. A visual example of one of our van der Waals complexes along with its associated potential energy surface is shown on the slide in figure 5 below.</p>
+<p> For a look at what the vibrational frequencies of our complex, we take a look at figure 4 below from Sharpe and co workers in 1991. According Richard Jones at University of Texas at Austin, the normal modes of vibration of a non-linear molecule are determined by the formula $ 3n - 6 $ where $n$ is the number of atoms. Therefore, for the t-shaped Rg-CO<sub>2</sub> there are six normal modes of vibration. These six modes have been classified by convention by Sharpe and co workers in figure 4 from their 1991 publication.<sub>[5]</sub> </p>
+
 
 
 <br>
 <div class="container">
-<a title="Sharpe Normal Modes Diagram" href="http://dx.doi.org/10.1063/1.460380"><img src="https://i.ibb.co/VTMDd25/Screen-Shot-2022-03-28-at-7-28-03-AM.png" alt="CO2 Normal Modes" border="0" width="500"></a> </div>
-<p2>Image: The fundamental excited vibrational states of a molecule are known as its normal modes. Here Sharpe and coworkers show the 4 normal modes of vibration for the CO<sub>2</sub> molecule. </p2> <br> 
+<a title="Sharpe Normal Modes Diagram" href="http://dx.doi.org/10.1063/1.460380"><img src="https://i.ibb.co/VTMDd25/Screen-Shot-2022-03-28-at-7-28-03-AM.png" alt="CO2 Normal Modes"  width="500"></a> </div>
+<h5><i>Fig. 4</i>: The fundamental excited vibrational states of a molecule are known as its normal modes. Here Sharpe and coworkers show the 4 normal modes of vibration for the CO<sub>2</sub> molecule. Here we can see that the degeneracy of the CO<sub>2</sub> $\nu_2$ mode has been interrupted exists as two discrete normal modes of vibration each with their own discrete energy value. This is known as splitting in the vibrational frequencies.</h5>
+
+ <br> 
+
+
+<p> Once the potential energy surfaces are created just like in figure 5 below we can begin to comment on the individual attributes of the van der Waals complex. The potential energy surface (PES) is a three dimensional object that encapsulates the bond distance and angle's contribution to the energy of the complex. In the case of water, shown in figure 4 below, we can see that there are some high and low points in the surface. These low points are called the minima and is where the chemistry happens for the molecular system. In the Sode Lab research, we developed a machine learning process and workflow to create potential energy surfaces for the prediction of energy given configurations of the van der Waals (vdW) complexes. </p>
 
 <br>
 <div class="container">
 <a title="Potential Energy Surface via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Potential_energy_surface"><img width="512" alt="Potential Energy Surface for Water" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Potential_Energy_Surface_for_Water.png"></a></div>
-<p2>Image: This is the potential energy surface of water. In this example image you can see that a potential energy surface is a three dimensional object that has two inputs for one output. The bond angle and the bond length in the x and y directions give rise to the energy in the z dimension's output.</p2> <br>
+<h5><i>Fig. 5</i>: This is the potential energy surface of water. In this example image, you can see that a potential energy surface is a three dimensional object that has two inputs for one output. The bond angle and the bond length in the x and y directions give rise to the energy in the z dimension's output.</h5> 
+
+<br>
+
+<br>
+
+<p>Now that we have developed our potential energy surface, we can comment on the chemical and physical properties of the van der Waals complexes and comment on intermolecular interactions that affect the carbon dioxide molecule. The graphical plot that is in the paper shows the two input axes along with a contour mapping of the energy for the given two inputs. The x axis being the angle of the intermolecular vdW bond and the y axis being the distance (in angstroms) of the intermolecular vdW bond. The lowest point is the global minima shown in the middle of the saddle and another local minima point at the ends of the contour map. We take into consideration that the graph is wrapped around meaning that the 0 degrees point is the same as the 180 degrees point on the x axis.  </p>
+
 
 <br>
 <div class="container">
-<a title="CO2 Ar Potential Energy Surface" href="https://doi.org/10.1016/j.jms.2021.111512"><img src="https://i.ibb.co/F07D67r/Screen-Shot-2022-03-28-at-8-04-10-AM.png" alt="CO2 AR PES" border="0" width="800"></a></div>
-<p2>Image: This is the potential energy surface of the Ar-CO<sub>2</sub> van der Waals complex published in 2021 by the Sode Lab. Here we see that there exists two isomers for the structure of the van der Waals complex, one t-shaped and one linear or 'l-shaped'. By: O Sode et al. 2021.</p2> <br>
+<a title="CO2 Ar Potential Energy Surface" href="https://doi.org/10.1016/j.jms.2021.111512"><img src="https://i.ibb.co/F07D67r/Screen-Shot-2022-03-28-at-8-04-10-AM.png" alt="CO2 AR PES"  width="800"></a></div>
+<h5><i>Fig. 6</i>: This is the potential energy surface of the Ar-CO<sub>2</sub> van der Waals complex published in 2021 by the Sode Lab. Here we see that there exists two isomers for the structure of the van der Waals complex, one T-shaped and one linear or 'L-shaped'. By: O. Sode et al. 2021.</h5> 
 
-$\nabla \mu = 3 \pi$
+<br>
+
+Recall that there are higher and lower energy vibrational states of carbon dioxide and that sunlight causes an excitation into one those vibrational states (The $\nu_3$ mode) and back down to the $\nu_2$ mode. When the van der Waals complex is formed there is a splitting of the energy of the two bending modes of CO<sub>2</sub>. With this information we can see that we can investigate more deeply into the vibrational excitations of CO<sub>2</sub> and elucidate the nature of the splitting of the bending modes. Perhaps we might be able to control the excitation of CO<sub>2</sub> using other gases in order to dampen these excitations. Through investigating the vdW complexes we can show how other molecules interact with the CO<sub>2</sub> molecule and since the vdW bond is a weak bond that is formed through temporary dipole moments there wouldn't be much barrier in the way of producing out chemical reaction if we can just elucidate further the nature of these weakly bound systems. 
+
+<br>
+
+
 
 <br>
 
 ### References: 
 
-[1] &nbsp;&nbsp;&nbsp; <a href="https://en.wikipedia.org/wiki/Keeling_Curve">Wikipedia: Keeling Curve<a>
+[1] &nbsp;&nbsp;&nbsp; <a href="https://en.wikipedia.org/wiki/Keeling_Curve">Wikipedia: Keeling Curve</a>
 
-[2] &nbsp;&nbsp;&nbsp; <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2004GL020324"> V. I. Fomichev et al. <i>Geophys. Lett.</i> 31. 2004 <a> 
+[2] &nbsp;&nbsp;&nbsp; <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2004GL020324"> V. I. Fomichev et al. <i>Geophys. Lett.</i> 31. 2004 </a> 
 
-[3] &nbsp;&nbsp;&nbsp; <a href="https://www.acs.org/content/dam/acsorg/education/resources/undergraduate/chemistryincontext/ch10microwaves.pdf"> ACS : Microwaves <a>
+[3] &nbsp;&nbsp;&nbsp; <a href="https://www.acs.org/content/dam/acsorg/education/resources/undergraduate/chemistryincontext/ch10microwaves.pdf"> ACS : Microwaves </a>
 
 [4] &nbsp;&nbsp;&nbsp; <a href="https://meridian.allenpress.com/jfp/article/43/8/629/188431/Design-and-Use-of-Domestic-Microwave-Ovens">
 P. J. Annis. <i>Int. J. Food Prot. </i> 43. 1980. </a>
+
+[5] &nbsp;&nbsp;&nbsp; <a href="https://sites.cns.utexas.edu/jones_ch431/normal-modes-vibration">
+ R. Jones <i>Normal Modes of Vibration</i>. utexas.edu. </a>
+
+[6] &nbsp;&nbsp;&nbsp; <a href="http://dx.doi.org/10.1063/1.460380">
+ S. W. Sharpe et al. <i>J. Chem. Phys.</i> 94. 233. 1991. </a>
+
+[7] &nbsp;&nbsp;&nbsp; <a href="https://doi.org/10.1016/j.jms.2021.111512">
+ O. Sode et al. <i>J. Mol. Spec.</i> 380. 111512. 2021. </a>
+
+[8] &nbsp;&nbsp;&nbsp; <a href="https://doi.org/10.1016/j.jms.2021.111512">
+C. E. Miller et al. <i>Spectroscopy</i>. 228. 329. 2004. </a>

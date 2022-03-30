@@ -29,6 +29,8 @@ INSERT PICTURE ABOVE: It's all setup to allow for centering.
 
 
 ## Updates
+
+<u><i>March 27, 2021:</u></i>
 Well today's work has been one of installing a bunch of ruby files and dependencies and then trying to figure out the subtleties of setting up the website. 
 
 I used the following guides to set up the website: 
