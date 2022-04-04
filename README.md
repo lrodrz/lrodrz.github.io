@@ -45,6 +45,9 @@ Launch the static site generator:
 
 $`bundle exec jekyll serve`
 
+or 
+
+$`bash chronos.sh`
 
 
 
