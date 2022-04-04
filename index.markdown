@@ -26,7 +26,7 @@ layout: home
 <h2><u>A Kind Welcome: </u></h2>
 
 
-Welcome to the blog! The site is brand new and needs to go over many changes but for now you can check out my post history below. For information about me check out the information tab on the header bar of this website or if you're on mobile, check out the hamburger menu on the right to see the menu options. For information about my research, visit the research page. 
+Welcome to the blog! <u>The site is brand new (first published on March 27, 2022) and needs to go over many changes</u>,  but for now you can check out my post history below. For information about me check out the information tab on the header bar of this website or if you're on mobile, check out the hamburger menu on the right to see the menu options. For information about my research, visit the research page. 
 
 <br>
 
@@ -41,6 +41,8 @@ Already with a full ambition and a lot of work ahead of me, I think that I will 
 <p>If you would like to know more about the sites construction and see the source code for the blog, check out my github repository at <a href="https://github.com/lrodrz/lrodrz.github.io">https://github.com/lrodrz/lrodrz.github.io</a></p>
 
 <br>
+
+
 
 
 

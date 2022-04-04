@@ -3,7 +3,10 @@ layout: post
 title:  "Research Update"
 date:   2022-03-27 05:07:18 -0700
 categories: research
+author: Larry Rodriguez
 use_math: true
+tags: "research"
+
 ---
 
 <!-- css styling -->
@@ -22,9 +25,10 @@ use_math: true
 
 #### Mar-27-2022:
 
-<p>I'm currently working on investigating the vibrational frequencies of Kr-CO<sub>2</sub> and Ne-CO<sub>2</sub> vibrational frequency van der Waals complexes. An additional project I will be working on soon is building a machine learning model to predict vibrational frequencies given a configuration of a Ar-CO<sub>2</sub> complex using an neural network built through Tensorflow. This will be using the supplemental information repository from a previously published paper from the Sode Lab. You can find it at: <a href="https://github.com/sodelab/SI_CO2Ar">SI_CO2Ar</a> </p>
+<p>I'm currently working on investigating the vibrational frequencies of Kr-CO<sub>2</sub> and Ne-CO<sub>2</sub> vibrational frequency van der Waals complexes. An additional project I will be working on soon is building a machine 
+learning model to predict vibrational frequencies given a configuration of a Ar-CO<sub>2</sub> complex using an neural network built through Tensorflow. This will be using the supplemental information repository from a previously published paper from the Sode Lab. You can find it at: <a href="https://github.com/sodelab/SI_CO2Ar">SI_CO2Ar</a> </p>
  
- 
+
 
 
 ### Why this research is important: 
