@@ -21,6 +21,29 @@ https://lrodrz.github.io
 <h2><u>Information:</u></h2>
 <br>
 
+<b><h3>To build a local cloned repo:</h3></b>
+
+Clone the repo:
+
+$`git clone https://github.com/lrodrz/lrodrz.github.io.git`
+
+You might want to use the editing branch to do edits: 
+
+$`git checkout editing`
+
+check if everything is up-to-date:
+
+ $`git pull origin main editing`
+
+make sure you have jekyll installed if not go to https://jekyllrb.com/docs/installation/
+
+setup the gems:
+
+$`bundle install`
+
+
+
+
 In case you wanted to follow my footsteps and build your own website here is some information about how I put together this website/github-page.
 
 <br>

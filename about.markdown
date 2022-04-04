@@ -5,58 +5,50 @@ permalink: /about/
 use_math: true
 ---
 
-
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll -->
-
 <style type="text/css" media="screen">
   .container {
-    margin: 10px auto;
-    max-width: 600px;
     text-align: center;
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+
 </style>
-
-
 
 <br>
 
 
 <div class="container">
-<img width="500" img src="https://i.ibb.co/SNKLbTp/csulapic.png" alt="csulapic">
+<img width="600" img src="https://i.ibb.co/SNKLbTp/csulapic.png" alt="Cal State LA: Annenberg Science Complex">
 <p>Picture: CSULA with the Annenberg Science Complex shown. By: Me!</p>
 </div>
 
 <br>
 
-<h2> Some Background on Me: </h2>
+<h2><u> Some Background on Me: </u></h2>
 
 I am recent graduate in Biology and Biochemistry from California State University, Los Angeles and I hope to get into data science to analyze big data with one day analyzing gene editing through machine learning algorithms. Coming out of college, Here on this website I am documenting my process and progress as I move from recent graduate to professional researcher.
 
+<h2><u> Education: </u></h2> 
 
-<h2> Research: </h2>
+<h3>California State University, Los Angeles</h3>
+
+<h4>Degrees Earned: Bachelor of Science in Biochemistry and Biology</h4>
+
+<h4>Attended: Fall 2015 to Fall 2021</h4>
+
+
+<h3>Bakersfield College</h3>
+
+<h4>Major of Transfer: Biology</h4>
+
+<h4>Attended: Fall 2010 to Fall 2015</h4>
+
+
+<h2><u> Research: </u></h2> 
 For information about my research, please visit my <a href="/research/">Research</a> page.
 
-<h2> Machine Learning: </h2>
+<h2><u> Machine Learning: </u></h2> 
 For information about my machine learning and artificial intellegence projects, please visit my <a href="/artificialintelligence/">Machine Learning</a> page.
 
-<h2> Conferences/Symposiums: </h2>
+<h2><u> Conferences/Symposiums: </u></h2>
 
 
 <h4><b>Poster Presentation | American Chemical Society | Abstract: Colloid 268 </b></h4>
@@ -70,10 +62,11 @@ For information about my machine learning and artificial intellegence projects, 
 <a href="https://www.youtube.com/watch?v=72dYTNtnTlg">Oral Presentation Available on Youtube</a>
 
 
+<h2><u> Extracirricular: </u></h2> 
 
+I have a diverse set of extracirricular hobbies and activities that I have been involved with over the years. 
 
-
-<h2> Why Chronos? </h2> 
+<h2><u> Why Chronos? </u></h2> 
 
 Albert Einstein once said that time is "a stubbornly persistent illusion". This blog and many other things I have made and modeled follow this same ideology. Thats why I picked the name Chronos for my blog. I name a lot of my projects after greek gods to stay into a theme and I thought Chronos was a fun name that comments on the time situation we all find ourselves in. 
 

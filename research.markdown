@@ -14,10 +14,17 @@ use_math: true
 
 <h3> Sode Lab: </h3>
 <div class="container">
+
+<br>
+
 Principal Investigator: Dr. Olaseni Sode
+
+<br>
+
 Theoretical computational chemistry and vibrational spectroscopy.</div>
 
 <br>
+
 <p>
 The theme of the Sode Lab is to investigate the theoretical chemistry of rare-gas system for the elucidation  of the nature of weakly bound systems.</p>
 
@@ -33,15 +40,38 @@ The theme of the Sode Lab is to investigate the theoretical chemistry of rare-ga
 
 <h3> Ba Lab: </h3>
 <div class="container">
+<br>
+
 Principal Investigator: Dr. Yong Ba
+
+<br>
+
 Synthesis and Characterization of beta-clyclodextrin clathrate structures for the inclusion of anti cancer molecules such as sorafineb.</div>
+
+<br>
+<div class="container">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Cyclodextrin.svg" title="beta-cyclodextrin" width="800" >
+</div>
+<p2>Image: The typical family of cyclodextrins. In the center we have beta cyclodextrin. Image from wikipedia's <a href="https://en.wikipedia.org/wiki/Cyclodextrin">cylodextrin</a> page.</p2>
+<br>
 
 <br>
 
 <h3> Hayes Lab: </h3>
 <div class="container">
+
+<br>
+
 Principal Investigator: Dr. Micheal L Hayes
-Characterization of DYW domain</div>
+</div>
+
+<br>
+
+Characterization of DYW domain
+
+<br>
+
+blah blah blah the quick brown fox jumped over the lazy dog 
 
 <br>
 
