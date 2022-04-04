@@ -26,7 +26,7 @@ layout: home
 <h2><u>A Kind Welcome: </u></h2>
 
 
-Welcome to the blog! The site is brand new and needs to go over many changes but for now you can check out my post history below. For information about me check out the information tab on the header bar of this website or if you're on mobile, check out the hamburger menu on the right to see the menu options. For information about my research, visit the research page. 
+Welcome to the blog! <u>The site is brand new (first published on March 27, 2022) and needs to go over many changes</u>,  but for now you can check out my post history below. For information about me check out the information tab on the header bar of this website or if you're on mobile, check out the hamburger menu on the right to see the menu options. For information about my research, visit the research page. 
 
 <br>
 

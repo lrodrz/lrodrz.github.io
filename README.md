@@ -56,7 +56,7 @@ The standard Jekyll directory structure can be found at:
 https://jekyllrb.com/docs/structure/
 
 
-## Feautures: 
+## Features: 
 
 <b><u>March 2022:</b></u> 
 

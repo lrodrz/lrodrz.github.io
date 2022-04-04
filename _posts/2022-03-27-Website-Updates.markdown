@@ -16,9 +16,7 @@ categories: updates
   <a title="My Morning Coffee" href="https://i.postimg.cc/sfMwPpZg/IMG-6365.jpg"><img width="700" alt="My Morning Coffee &amp; Morning Coffee" src="https://i.postimg.cc/sfMwPpZg/IMG-6365.jpg"></a>
 </div>
 
-<!-- 
-INSERT PICTURE ABOVE: It's all setup to allow for centering. 
- -->
+
 
 <br>
 ## Updates

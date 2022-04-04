@@ -30,7 +30,7 @@ I am recent graduate in Biology and Biochemistry from California State Universit
 
 <h3>California State University, Los Angeles</h3>
 
-<h4>Degrees Earned: Bachelor of Science in Biochemistry and Biology</h4>
+<h4>Degrees Earned: Bachelor of Science in Biochemistry and Biology in May 2021</h4>
 
 <h4>Attended: Fall 2015 to Fall 2021</h4>
 
@@ -46,7 +46,7 @@ I am recent graduate in Biology and Biochemistry from California State Universit
 For information about my research, please visit my <a href="/research/">Research</a> page.
 
 <h2><u> Machine Learning: </u></h2> 
-For information about my machine learning and artificial intellegence projects, please visit my <a href="/artificialintelligence/">Machine Learning</a> page.
+For information about my machine learning and artificial intelligence projects, please visit my <a href="/artificialintelligence/">Machine Learning</a> page.
 
 <h2><u> Conferences/Symposiums: </u></h2>
 
@@ -62,11 +62,11 @@ For information about my machine learning and artificial intellegence projects, 
 <a href="https://www.youtube.com/watch?v=72dYTNtnTlg">Oral Presentation Available on Youtube</a>
 
 
-<h2><u> Extracirricular: </u></h2> 
+<h2><u> Extracurricular: </u></h2> 
 
-I have a diverse set of extracirricular hobbies and activities that I have been involved with over the years. 
+I have a diverse set of extracurricular hobbies and activities that I have been involved with over the years. 
 
 <h2><u> Why Chronos? </u></h2> 
 
-Albert Einstein once said that time is "a stubbornly persistent illusion". This blog and many other things I have made and modeled follow this same ideology. Thats why I picked the name Chronos for my blog. I name a lot of my projects after greek gods to stay into a theme and I thought Chronos was a fun name that comments on the time situation we all find ourselves in. 
+Albert Einstein once said that time is "a stubbornly persistent illusion". This blog and many other things I have made and modeled follow this same ideology. That's why I picked the name Chronos for my blog. I name a lot of my projects after Greek gods to stay into a theme and I thought Chronos was a fun name that comments on the time situation we all find ourselves in. 
 
