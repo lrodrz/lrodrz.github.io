@@ -48,6 +48,10 @@ For information about my research, please visit my <a href="/research/">Research
 <h2><u> Machine Learning: </u></h2> 
 For information about my machine learning and artificial intelligence projects, please visit my <a href="/artificialintelligence/">Machine Learning</a> page.
 
+<h2><u> Programming Languages Familiar With:</u></h2>
+
+Python, R, Jupyter, HTML, C++, CSS 
+
 <h2><u> Conferences/Symposiums: </u></h2>
 
 
