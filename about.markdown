@@ -51,16 +51,43 @@ For information about my machine learning and artificial intelligence projects, 
 <h2><u> Conferences/Symposiums: </u></h2>
 
 
-<h4><b>Poster Presentation | American Chemical Society | Abstract: Colloid 268 </b></h4>
-<h4><i>Research Student on behalf of Dr. Yong Ba - Cal State LA</i></h4>
-<h5>Abstract: Colloid 268; Presented poster on pegylation of β-cyclodextrin for increased water solubility and biocompatibility in drug delivery applications</h5>
+<h4><b>2021| Oral Presentation | Cal State LA | Student Symposium on Research, Scholarship, and Creative Activities</b></h4>
 
-<h4><b>Oral Presentation | Cal State LA | Student Symposium on Research, Scholarship, and Creative Activities</b></h4>
 <h4><i>Research Student on behalf of Dr. Olaseni Sode - Cal State LA</i></h4>
-<h5>Abstract: The CO<sub>2</sub> van der Waals (vdW) complex is important to study because it can elucidate the physical nature of intermolecular and intramolecular interactions. We developed a flexible-monomer two-body carbon dioxide-rare gas (Rg) <i> ab initio </i> potential energy surface (PES), extending the previous work in the Ar-CO<sub>2</sub>  vdW complex. We validated the PES for each Rg-CO<sub>2</sub>  (Rg = Ne and Kr) through a Tikhonov regularization against a training set and validated the PES on a test set of <i> ab initio </i> energies. The PES was used to compute the theoretical vibrational frequencies for both complexes. We compared our theoretical vibrational frequencies to band assignments found in experimental literature. We observed splitting in vibrational frequencies of the doubly degenerate $\nu_2$ modes of CO<sub>2</sub>  in the Krypton and Neon complexes.</h5>
+
+<h4><b>Title: Study of Vibrational Frequencies in CO<sub>2</sub> van der Waals Complexes, A Machine Learning Approach</b></h4>
+
+<h4>Authors: Rodriguez, Larry. Olaseni, Sode.</h4>
+
+<h5><u>Abstract</u>: The CO<sub>2</sub> van der Waals (vdW) complex is important to study because it can elucidate the physical nature of intermolecular and intramolecular interactions. We developed a flexible-monomer two-body carbon dioxide-rare gas (Rg) <i> ab initio </i> potential energy surface (PES), extending the previous work in the Ar-CO<sub>2</sub>  vdW complex. We validated the PES for each Rg-CO<sub>2</sub>  (Rg = Ne and Kr) through a Tikhonov regularization against a training set and validated the PES on a test set of <i> ab initio </i> energies. The PES was used to compute the theoretical vibrational frequencies for both complexes. We compared our theoretical vibrational frequencies to band assignments found in experimental literature. We observed splitting in vibrational frequencies of the doubly degenerate $\nu_2$ modes of CO<sub>2</sub>  in the Krypton and Neon complexes.</h5>
 
 <a href="https://www.youtube.com/watch?v=72dYTNtnTlg">Oral Presentation Available on Youtube</a>
 
+<br>
+
+<h4><b>2018 | Poster Presentation | American Chemical Society | 256th ACS National Meeting | Abstract: Colloid 268 </b></h4>
+
+<h4><i>Research Student on behalf of Dr. Yong Ba - Cal State LA</i></h4>
+
+<h4><b>Title: Pegylation of β-cyclodextrin for increased water solubility and biocompatibility in drug
+delivery applications</b></h4>
+
+<h4>Authors: Nguyen, Kim. Manasi, Roni. Rodriguez, Larry. Ba, Yong</h4>
+
+<h5><u>Abstract</u>: Colloid 268; Cyclodextrins (CDs) are cyclic oligosaccharides that are (1, 4) linked -D(+)-glucopyranose units. CDs have a truncated cone-like shape with a relatively hydrophobic inner cavity and a hydrophilic exterior. Thus, CDs have been widely used as drug delivery carriers. -CD contains 7-D(+)-glucopyranoside units, and is the most commonly used CD in the pharmaceutical industry. However, -CDs drawbacks lie in its low water
+solubility due to the intramolecular hydrogen bonds among the secondary hydroxyl groups on the peripheries,
+and the nephrotoxicity for drug delivery through parenteral administration. To tackle these adverse effects, we
+have attached poly(ethylene glycol) methyl ether (mPEG) to -CDs exterior region to render -CD the properties of
+water solubility and biocompatibility. The synthesis of the pegylated -CDs was carried out by tosylating the
+mPEG, de-protonating the hydroxyl groups on the -CD to form strong nucleophiles, and combining them
+together through an S<sub>N</sub>2 mechanism to obtain the target compound, mPEG--CD. <sup>1</sup>H 2D COSY and NOESY
+NMR, and MALDI-TOF mass spectrometry techniques were used to characterize the structures and molecular
+weights of the products. We found that solubility of the pegylated -CDs was significantly improved. 1-
+fluoroadamantane, a model drug, was used to examine the inclusion property of the pegylated -CD. The results
+show that the cavities of pegylated -CDs were still open and available for drug loading. The increased water
+solubility and drug loading capabilities of pegylated -CDs combined with PEGs biomedical properties predict
+the promise of pegylated -CDs applications in the pharmaceutical industry.
+</h5>
 
 <h2><u> Extracurricular: </u></h2> 
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Machine Learning"
+title: "Machine-Learning"
 permalink: /artificialintelligence/
 ---
 
@@ -26,3 +26,20 @@ Projects to work on:
 
 5.) Clustering
 
+
+<br>
+
+<h3> Recent Machine Learning Posts: </h3>
+
+
+{% for machinepost in site.categories.machine-learning %}
+  <h4> <a href="{{machinepost.url}}">
+  --- &nbsp; &nbsp; 
+  {{machinepost.date | date: "%a, %B %d, %Y" }}
+  :
+  &nbsp;
+  {{machinepost.title}}
+  </a> 
+  </h4>
+  <br>
+{% endfor %}

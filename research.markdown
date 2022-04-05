@@ -46,7 +46,7 @@ Principal Investigator: Dr. Yong Ba
 
 <br>
 
-Synthesis and Characterization of beta-clyclodextrin clathrate structures for the inclusion of anti cancer molecules such as sorafineb.</div>
+Synthesis and Characterization of $\beta$-clyclodextrin clathrate structures for the inclusion of anti cancer molecules such as sorafineb.</div>
 
 <br>
 <div class="container">
