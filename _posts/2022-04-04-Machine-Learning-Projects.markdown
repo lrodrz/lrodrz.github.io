@@ -36,7 +36,7 @@ tags: "machine-learning"
 
 <h4><u><i>52Predict</i></u>:</h4>
 
-52predict is one of my more abitious projects. I coded a little bit of it after watching the movie <i>21</i>. At this point I have come up with a simple algorithm to give me a randomized set of the one-thousand cards distributed by numpys choice function. 
+52predict is one of my more ambitious projects. I coded a little bit of it after watching the movie <i>21</i>. At this point I have come up with a simple algorithm to give me a randomized set of the one-thousand cards distributed by numpys choice function. 
 
 {% highlight python %}
 def CardRandomizer():
@@ -47,7 +47,7 @@ def CardRandomizer():
         writer.writerow(is_this_your_card)
 {% endhighlight %}
 
-then using a simple high-low card counting algorithim I found online I made a loop that assigns a certain count as each card is 'flipped' (or looped over) by python. Here are the first few lines of the loop:
+then using a simple high-low card counting algorithm I found online I made a loop that assigns a certain count as each card is 'flipped' (or looped over) by python. Here are the first few lines of the loop:
 
 {% highlight python %}
    lIst_fi_hilo = []
@@ -84,7 +84,7 @@ I found a fix from <a href="https://github.com/tensorflow/datasets/issues/2604">
 
 <br>
 
-<p> Now, Let's analyze what is happening. I cleaned up the original notebook to only <a href="https://github.com/lrodrz/SentimentAnalysis/blob/main/Sentiment2.ipynb">the essentials</a> so I could analyze what was written. The first thing to notice, according to Géron, is that the IMDB data has already been tokenized where tokenization is the process of splitting text into smaller pieces called tokens <sub>[1]</sub>. This apparently comes from the <a href="https://en.wikipedia.org/wiki/Tokenization_(data_security)">data security sector</a> where each token takes the data that is assigned to it and replaces it with some other encoding in order to save space and computational capacity without sacraficing the meaning behind the thing being tokenized <sub>[2] [3]</sub>. </p>
+<p> Now, Let's analyze what is happening. I cleaned up the original notebook to only <a href="https://github.com/lrodrz/SentimentAnalysis/blob/main/Sentiment2.ipynb">the essentials</a> so I could analyze what was written. The first thing to notice, according to Géron, is that the IMDB data has already been tokenized where tokenization is the process of splitting text into smaller pieces called tokens <sub>[1]</sub>. This apparently comes from the <a href="https://en.wikipedia.org/wiki/Tokenization_(data_security)">data security sector</a> where each token takes the data that is assigned to it and replaces it with some other encoding in order to save space and computational capacity without sacrificing the meaning behind the thing being tokenized <sub>[2] [3]</sub>. </p>
 
 <p>Now let's take a look at Géron's code: </p>
 
@@ -126,7 +126,7 @@ def preprocess(X_batch, y_batch):
 
 To limit the paragraph size, `tf.strings.substr()` is called with `X_batch` as the input and creates a substring with `.substr` from position 0 to 300 <sub>[4]</sub>. The cleaned strings are then put into a tensor called a 'Ragged Tensor' which according to Tensorflow is stored data (feature sets) of non-uniform length <sub>[4][6]</sub>.For the last line, we have a conversion of the Ragged Tensor to `tf.tensor` while a `default_value` of `<pad>` is assigned to empty values and values not defined by `X_batch` <sub>[4]</sub>.
 
-Next, the counter function from python collections is imported and loops over `X_batch` and `y_batch` in `datasets["train"].batch(32).map(preprocess)`. According to cloudxlab.com the function is creating batches of 32 and interatively applying the preprocess function to each batch using `map()` <sub>[7]</sub>.
+Next, the counter function from python collections is imported and loops over `X_batch` and `y_batch` in `datasets["train"].batch(32).map(preprocess)`. According to cloudxlab.com the function is creating batches of 32 and iteratively applying the preprocess function to each batch using `map()` <sub>[7]</sub>.
 
 {% highlight python %}
 from collections import Counter
@@ -137,7 +137,7 @@ for X_batch, y_batch in datasets["train"].batch(32).map(preprocess):
         vocabulary.update(list(review.numpy()))
 {% endhighlight %}
 
-We have a second loop nested from the first loop that grabs each indivdual `review` from `X_batch` and then updates the counter function with a list containing a numpy array of each review in `list(review.numpy())`.
+We have a second loop nested from the first loop that grabs each individual `review` from `X_batch` and then updates the counter function with a list containing a numpy array of each review in `list(review.numpy())`.
 
 Following this, Géron asserts that limiting the vocabulary to the most common one-thousand words is enough to contain enough data to make accurate classifications stating earlier that ". . . . you can generally tell whether a review is positive or not in the first sentence or two" (pg. 536). Therefore, a list comprehension is composed and a `most_common()` function is applied to the counter object defined as `vocabulary = Counter()` earlier. Where list comprehension is defined by w3schools as "a shorter syntax when you want to create a new list based on the values of an existing list" <sub>[8]</sub>. 
 
@@ -232,7 +232,7 @@ then
 
 Where $X^T_i$ is a tensor feature set and $\beta$ is a parameter vector <sub>[13][14][15][16][17][18]</sub>.
 
-So, at this point, I know quite a bit about the sentiment analysis neural network that was written in Géron's book. I will need to update myself more on the specific details of the recurrant neural network (RNN) that was developed by Cho and co workers, but for now I think I have enough to begin analyzing earnings sentiment using a similar approach to that of this example RNN. 
+So, at this point, I know quite a bit about the sentiment analysis neural network that was written in Géron's book. I will need to update myself more on the specific details of the recurrent neural network (RNN) that was developed by Cho and co workers, but for now I think I have enough to begin analyzing earnings sentiment using a similar approach to that of this example RNN. 
 
 <br>
 
