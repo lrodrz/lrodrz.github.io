@@ -65,6 +65,15 @@ https://jekyllrb.com/docs/structure/
 
 ## Features: 
 
+<b><u>April 2022:</b></u> 
+
+<u>Plotting:</u>
+
+Might add some plotting capability. atm don't have much time but here's a nice link I found by Ethan Cheong.
+
+https://ethan-cheong.github.io/plotly-in-jekyll/
+
+
 <b><u>March 2022:</b></u> 
 
 <u>LaTeX:</u>

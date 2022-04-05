@@ -147,7 +147,7 @@ truncated_vocabulary = [
     word for word, count in vocabulary.most_common()[:vocab_size]]
 {% endhighlight %}
 
-In the following part, the truncated vocabulary is made into a tensor object by being passed through `tensor.constant()`; apparently, this works because `truncated_vocabulary` is a tensorlike object <sub>[9]</sub>. This method is found in chapter 13 page 432 of Géron's book.  
+In the following part, the truncated vocabulary is made into a tensor object by being passed through `tensor.constant()`; apparently, this works because `truncated_vocabulary` is a tensorlike object <sub>[9]</sub>. This method is found in chapter 13 page 432 of Géron's book <sub>[5]</sub>.  
 
 {% highlight python %}
 words = tf.constant(truncated_vocabulary)
@@ -157,6 +157,10 @@ num_oov_buckets = 1000
 table = tf.lookup.StaticVocabularyTable(vocab_init, num_oov_buckets)
 {% endhighlight %}
 
+After the tensor object is made from `truncated vocabulary`, a lookup table is made with the keys being `words` and the values being `words_ids`, which is made in the line previous using a range list constructed from the length of `truncated_vocabulary`, then the lookup table is finally created by passing through `vocab_init` and an integer value specified by `num_oov_buckets` to create the lookup table and `oov` is out-of-vocabulary buckets for words that are not not in the vocabulary [10]. 
+
+In this small function that is defined after constructing the lookup table, the `table.lookup()` is used and passes through `X_batch` and returns all `y_batch`. The training set then defined and undergoes batching and preprocessing followed by passing through `encode_words`. 
+
 {% highlight python %}
 def encode_words(X_batch, y_batch):
     return table.lookup(X_batch), y_batch
@@ -165,11 +169,7 @@ train_set = datasets["train"].batch(32).map(preprocess)
 train_set = train_set.map(encode_words).prefetch(1)
 {% endhighlight %}
 
-{% highlight python %}
-for X_batch, y_batch in train_set.take(1):
-    print(X_batch)
-    print(y_batch)
-{% endhighlight %}
+After all of the cleaning up of the data and preprocessing is done, the neural network is created. According to Géron, `keras.layers.Embedding()` creates a trainable dense vector for the words passed through it. The advantages of using a Dense vector rather than a sparse vector is the ability to contain more information since the feature set that is encoded in the dense layer has more non-zero values than the sparse vector feature set <sub>[11]</sub>. 
 
 {% highlight python %}
 embed_size = 128
@@ -184,6 +184,8 @@ model = keras.models.Sequential([
 model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
 history = model.fit(train_set, epochs=5)
 {% endhighlight %}
+
+The actual neural network is composed of two GRU layers <sub>[5]</sub>. GRU stands for "Gated Recurrent Unit" which was first described in <a href="https://arxiv.org/abs/1406.1078">K. Cho and Co Worker's 2014 paper</a> as a strategy against forgetting. <sub>[12][13][14][15]</sub>.   
 
 <br>
 
@@ -207,6 +209,22 @@ history = model.fit(train_set, epochs=5)
 
 [7] &nbsp;&nbsp; <a href="https://cloudxlab.com/assessment/displayslide/5740/creating-the-final-train-and-test-sets">CloudxLab: <i>Creating the Final Train and Test Sets</i> (accessed Apr. 4, 2022).</a> 
 
-[7] &nbsp;&nbsp; <a href="https://www.w3schools.com/python/python_lists_comprehension.asp">W3Schools: <i>Python - List Comprehension</i> (accessed Apr. 4, 2022).</a> 
+[8] &nbsp;&nbsp; <a href="https://www.w3schools.com/python/python_lists_comprehension.asp">W3Schools: <i>Python - List Comprehension</i> (accessed Apr. 4, 2022).</a> 
 
-[7] &nbsp;&nbsp; <a href="https://www.tensorflow.org/api_docs/python/tf/constant">Tensorflow: <i>tf.constant</i> (accessed Apr. 4, 2022).</a> 
+[9] &nbsp;&nbsp; <a href="https://www.tensorflow.org/api_docs/python/tf/constant">Tensorflow: <i>tf.constant</i> (accessed Apr. 4, 2022).</a> 
+
+[10] &nbsp;&nbsp; <a href="https://www.tensorflow.org/api_docs/python/tf/lookup/KeyValueTensorInitializer">Tensorflow: <i>tf.lookup.KeyValueTensorInitializer</i> (accessed Apr. 4, 2022).</a> 
+
+[11] &nbsp;&nbsp; <a href="https://neptune.ai/blog/understanding-vectors-from-a-machine-learning-perspective">C. Horan., <i>Understanding Vectors From a Machine Learning Perspective</i> neptune.ai. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (accessed Apr. 4, 2022).</a> 
+
+[12] &nbsp;&nbsp; <a href="https://neptune.ai/blog/understanding-vectors-from-a-machine-learning-perspective">Tensorflow <i>Gated Recurrent Unit - Cho et al</i> (accessed Apr. 4, 2022).</a> 
+
+[13] &nbsp;&nbsp; <a href="https://arxiv.org/abs/1406.1078">Cho K. et al. <i>Learning Phrase Representations using RNN Encoder-Decoder for Statistical 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Machine Translation</i>. Cornel University. 2014. </a> 
+
+[14] &nbsp;&nbsp; <a href="https://www.deepmind.com/publications/improving-the-gating-mechanism-of-recurrent-neural-networks">Deepmind: <i>Improving the Gating Mechanism of Recurrent Neural Networks</i> (accessed Apr. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4, 2022).</a>
+
+[15] &nbsp;&nbsp; <a href="https://doi.org/10.1109/ACCESS.2022.3147237">Jin H. et al. <i>Gating Mechanism in Deep Neural Networks for Resource-Efficient Continual 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning</i> Institute of Electrical and Electronics Engineers. 10. 18776 - 18786. </a>
