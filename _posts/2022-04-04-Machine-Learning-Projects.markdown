@@ -17,6 +17,13 @@ tags: "machine-learning"
     }
 </style>
 
+<br>
+
+<div class="container">
+<img src="https://i.ibb.co/NnyHsvm/coffeendcode.jpg" alt="coffee and code" title="coffee 'nd coding" width="650">
+</div>
+
+<br>
 
 <h2>Current Machine Learning Projects:</h2> 
 
