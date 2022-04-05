@@ -185,7 +185,54 @@ model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"]
 history = model.fit(train_set, epochs=5)
 {% endhighlight %}
 
-The actual neural network is composed of two GRU layers <sub>[5]</sub>. GRU stands for "Gated Recurrent Unit" which was first described in <a href="https://arxiv.org/abs/1406.1078">K. Cho and Co Worker's 2014 paper</a> as a strategy against forgetting. <sub>[12][13][14][15]</sub>.   
+The actual neural network is composed of two GRU layers <sub>[5]</sub>. GRU stands for "Gated Recurrent Unit" which was first described in <a href="https://arxiv.org/abs/1406.1078">K. Cho and Co Worker's 2014 paper</a> as a strategy against forgetting. <sub>[12][13][14][15]</sub>. The sigmoid activation function follows the following mathematical function: 
+
+<br>
+
+<div class="container">
+<h4>  $ s(h) = \frac{1}{(1 + \exp(-h))} $ </h4>
+</div>
+
+<br>
+This is part of the linear regression function which is: 
+
+<br>
+
+<div class="container">
+<h4> $ y_i = x_{i}^{T}\beta + \epsilon_i $ </h4>
+</div>
+
+<br>
+
+From what I understand, the error term, $\epsilon_i$, is set to zero and the sigmoid activation function is composed <i>inside</i> the linear regression function in the following way:
+
+<br>
+
+let 
+
+<div class="container">
+<h4> $ s(h) = \frac{1}{(1 + \exp(-h))} $ </h4>
+</div>
+
+and
+
+<div class="container">
+<h4> $ h = x_{i}^{T}\beta $ </h4>
+</div>
+
+then 
+
+<br>
+
+<div class="container">
+<h4> $ y_i = s(x_{i}^{T}\beta) = \frac{1}{1 + \exp(-x_{i}^{T}\beta)} = \frac{1}{1 + e^{-x_{i}^{T}\beta}} $ </h4>
+</div>
+
+<br>
+
+Where $X^T_i$ is a tensor feature set and $\beta$ is a parameter vector <sub>[13][14][15][16][17][18]</sub>.
+
+So, at this point, I know quite a bit about the sentiment analysis neural network that was written in Géron's book. I will need to update myself more on the specific details of the recurrant neural network (RNN) that was developed by Cho and co workers, but for now I think I have enough to begin analyzing earnings sentiment using a similar approach to that of this example RNN. 
 
 <br>
 
@@ -218,7 +265,7 @@ The actual neural network is composed of two GRU layers <sub>[5]</sub>. GRU stan
 [11] &nbsp;&nbsp; <a href="https://neptune.ai/blog/understanding-vectors-from-a-machine-learning-perspective">C. Horan., <i>Understanding Vectors From a Machine Learning Perspective</i> neptune.ai. 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (accessed Apr. 4, 2022).</a> 
 
-[12] &nbsp;&nbsp; <a href="https://neptune.ai/blog/understanding-vectors-from-a-machine-learning-perspective">Tensorflow <i>Gated Recurrent Unit - Cho et al</i> (accessed Apr. 4, 2022).</a> 
+[12] &nbsp;&nbsp; <a href="https://neptune.ai/blog/understanding-vectors-from-a-machine-learning-perspective">Tensorflow: <i>Gated Recurrent Unit - Cho et al</i> (accessed Apr. 4, 2022).</a> 
 
 [13] &nbsp;&nbsp; <a href="https://arxiv.org/abs/1406.1078">Cho K. et al. <i>Learning Phrase Representations using RNN Encoder-Decoder for Statistical 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Machine Translation</i>. Cornel University. 2014. </a> 
@@ -228,3 +275,17 @@ The actual neural network is composed of two GRU layers <sub>[5]</sub>. GRU stan
 
 [15] &nbsp;&nbsp; <a href="https://doi.org/10.1109/ACCESS.2022.3147237">Jin H. et al. <i>Gating Mechanism in Deep Neural Networks for Resource-Efficient Continual 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning</i> Institute of Electrical and Electronics Engineers. 10. 18776 - 18786. </a>
+
+[13] &nbsp;&nbsp; <a href="http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm">Yale: <i>Linear Regression</i> (accessed Apr. 4, 2022).</a> 
+
+[14] &nbsp;&nbsp; <a href="https://en.wikipedia.org/wiki/Linear_regression">Wikipedia: <i>Linear regression</i> (accessed Apr. 4, 2022).</a> 
+
+[15] &nbsp;&nbsp; <a href="https://towardsdatascience.com/understanding-logistic-regression-step-by-step-704a78be7e0a">G. Chavez., <i>Understanding Logistic Regression step by step</i> towardsdatascience.com. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (accessed Apr. 4, 2022).</a> 
+
+[16] &nbsp;&nbsp; <a href="https://www.ibm.com/topics/logistic-regression">IBM: <i>Logistic Regression: What is logistic regression? </i> (accessed Apr. 4, 2022).</a> 
+
+[17] &nbsp;&nbsp; <a href="https://paperswithcode.com/method/sigmoid-activation">Paperswithcode.com <i>Sigmoid Activation</i> (accessed Apr. 4, 2022).</a> 
+
+[18] &nbsp;&nbsp; <a href="https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/">M. Saeed <i>A Gentle Introduction To Sigmoid Function</i> machinelearningmastery.com 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (accessed Apr. 4, 2022).</a> 
