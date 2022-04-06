@@ -9,8 +9,18 @@ use_math: true
   .container {
     text-align: center;
   }
-
+.const {
+    color: rgb(220, 20, 60); /* text color with rgb */
+    font-size: 40px; 
+    background-color: #FFD500; /* text highlight color */
+    text-align: center;
+}
 </style>
+
+
+<div class="const"> PAGE UNDER CONSTRUCTION </div>
+
+<br>
 
 <br>
 
@@ -47,6 +57,10 @@ For information about my research, please visit my <a href="/research/">Research
 
 <h2><u> Machine Learning: </u></h2> 
 For information about my machine learning and artificial intelligence projects, please visit my <a href="/artificialintelligence/">Machine Learning</a> page.
+
+<h2><u> Programming Languages Familiar With:</u></h2>
+
+Python, R, Jupyter, HTML, C++, CSS, Shell
 
 <h2><u> Conferences/Symposiums: </u></h2>
 
