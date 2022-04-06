@@ -4,6 +4,20 @@ title: "Machine-Learning"
 permalink: /artificialintelligence/
 ---
 
+<style type="text/css" media="screen">
+  .const {
+    color: rgb(220, 20, 60); /* text color with rgb */
+    font-size: 40px; 
+    background-color: #FFD500; /* text highlight color */
+    text-align: center;
+}
+</style>
+
+
+<div class="const"> PAGE UNDER CONSTRUCTION </div>
+
+<br>
+
 <h1>Artificial Intelligence and Machine Learning</h1>
 
 <body>Welcome to my Page on Artificial Intelligence and Machine Learning. I just got this website up this month so please be patient while I get this page ready and construct the website. I'm excited to share my experience and knowledge in machine learning.</body>

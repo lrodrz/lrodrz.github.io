@@ -8,9 +8,31 @@ use_math: true
 tags: "machine-learning"
 ---
 
+<style type="text/css" media="screen">
+  .container {
+    text-align: center;
+  }
+  p { text-indent: 25px;
+      font-size: 17px;
+    }
+  .const {
+      color: rgb(220, 20, 60); /* text color with rgb */
+      font-size: 40px; 
+      background-color: #FFD500; /* text highlight color */
+      text-align: center;
+  }
+</style>
+
+
+<div class="const"> PAGE UNDER CONSTRUCTION </div>
+
+<br>
+
 <h2>Mathematical Algorithims<h2>
 
 blah blah blah
+
+<h2> References: </h2>
 
 https://www.javatpoint.com/linear-regression-in-machine-learning
 

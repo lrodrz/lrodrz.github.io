@@ -9,8 +9,18 @@ use_math: true
     text-align: center;
   }
   p { text-indent: 25px; }
-  p2 {}
+  .const {
+    color: rgb(220, 20, 60); /* text color with rgb */
+    font-size: 40px; 
+    background-color: #FFD500; /* text highlight color */
+    text-align: center;
+  }
 </style>
+
+
+<div class="const"> PAGE UNDER CONSTRUCTION </div>
+
+<br>
 
 <h3> Sode Lab: </h3>
 <div class="container">
