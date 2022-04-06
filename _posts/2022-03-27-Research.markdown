@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Research Update"
+title:  "Research Updates"
 date:   2022-03-27 05:07:18 -0700
 categories: research
 author: Larry Rodriguez

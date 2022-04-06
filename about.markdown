@@ -60,7 +60,7 @@ For information about my machine learning and artificial intelligence projects, 
 
 <h2><u> Programming Languages Familiar With:</u></h2>
 
-Python, R, Jupyter, HTML, C++, CSS, Shell
+Python, R, Jupyter, HTML, C++, CSS, Shell, markdown
 
 <h2><u> Conferences/Symposiums: </u></h2>
 
