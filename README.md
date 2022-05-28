@@ -35,7 +35,7 @@ check if everything is up-to-date:
 
  $`git pull origin main editing`
 
-make sure you have jekyll installed if not go to https://jekyllrb.com/docs/installation/
+Make sure you have jekyll installed. If not, there are guides available for your favorite operating system at:   https://jekyllrb.com/docs/installation/ 
 
 setup the gems:
 
