@@ -32,7 +32,7 @@ Welcome to the blog! <u>The site is brand new (first published on March 27, 2022
 
 <h2><u>Picture of the Month: </u></h2>
 
-This month I'm showcasing a glimpse of Californias great outdoors from Mount Whitney in Inyo County.
+This month I'm showcasing a glimpse of Californias great outdoors from Mount Whitney in Inyo County..
 
 <br>
 
