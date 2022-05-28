@@ -9,16 +9,10 @@ use_math: true
   .container {
     text-align: center;
   }
-.const {
-    color: rgb(220, 20, 60); /* text color with rgb */
-    font-size: 40px; 
-    background-color: #FFD500; /* text highlight color */
-    text-align: center;
-}
 </style>
 
 
-<div class="const"> PAGE UNDER CONSTRUCTION </div>
+
 
 <br>
 
@@ -34,21 +28,24 @@ use_math: true
 
 <h2><u> Some Background on Me: </u></h2>
 
-I am recent graduate in Biology and Biochemistry from California State University, Los Angeles and I hope to get into data science to analyze big data with one day analyzing gene editing through machine learning algorithms. Coming out of college, Here on this website I am documenting my process and progress as I move from recent graduate to professional researcher.
+I am recently admitted graduate student in Chemistry at California State University, Los Angeles working in Dr. Olaseni Sode's research lab in computational chemistry. I studied Biology and biochemistry as my undergraduate major at Cal State LA. My career goals include breaking into the data science and big data analysis industry and hope to one day analyze and investigate gene editing through machine learning algorithms for the prediction of <i>in vivo</i> interactions. This website is my accountability tracker for which I hope to enter much information about my experiences as well as create a repository for the knowledge and research that I discover.
+
+<h2><u> My Experience: </u></h2>
+
+I have studied and working in three research labs beginning with my first research lab in the fall of 2016. After gaining the opportunity to study as a research student, I discovered immediately that the elucidation and investigation of chemical and physical concepts was my passion. I have worked synthesizing and analyzing organic compounds for the inclusion of anticancer molecules for drug delivery and discovery, I have worked elucidating biochemical editing interactions using assays and protein immunoblots and I currently use computers to investigate the theoretical concepts of atomic and molecular interactions. I endeavor to become a polymath to ensure I synergize well with my colleagues, so I always volunteer to learn a new method, instrument, program, or theory to facilitate a gain in time and insight in the pursuit of intellectual excellence. 
 
 <h2><u> Education: </u></h2> 
 
-<h3>California State University, Los Angeles</h3>
+<h4><b>California State University, Los Angeles</b></h4>
+<h4>Current Academic Program: Master of Science in Chemistry</h4>
+<h4>Admitted: Fall 2022</h4>
 
+<h4><b>California State University, Los Angeles</b></h4>
 <h4>Degrees Earned: Bachelor of Science in Biochemistry and Biology in May 2021</h4>
-
 <h4>Attended: Fall 2015 to Fall 2021</h4>
 
-
-<h3>Bakersfield College</h3>
-
+<h4><b>Bakersfield College</b></h4>
 <h4>Major of Transfer: Biology</h4>
-
 <h4>Attended: Fall 2010 to Fall 2015</h4>
 
 
@@ -105,7 +102,7 @@ the promise of pegylated -CDs applications in the pharmaceutical industry.
 
 <h2><u> Extracurricular: </u></h2> 
 
-I have a diverse set of extracurricular hobbies and activities that I have been involved with over the years. 
+I consider a wide variety of hobbies and activities to keep myself occupied and strive to become a well rounded individual with a diverse skill set. With that being said, my hobbies include, woodworking, digital and film photography, jiujitsu, Judo, hiking, running, weight lifting, swimming, electronic prototyping, 3d printing, coding for fun, Gardening, and video games. 
 
 <h2><u> Why Chronos? </u></h2> 
 

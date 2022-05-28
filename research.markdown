@@ -11,16 +11,8 @@ use_math: true
   p { text-indent: 25px;
       font-size: 16px; 
   }
-  .const {
-    color: rgb(220, 20, 60); /* text color with rgb */
-    font-size: 40px; 
-    background-color: #FFD500; /* text highlight color */
-    text-align: center;
-  }
 </style>
 
-
-<div class="const"> PAGE UNDER CONSTRUCTION </div>
 
 <br>
 
@@ -40,7 +32,7 @@ Theoretical computational chemistry and vibrational spectroscopy.</div>
 <div class="container">
 <img src="https://i.ibb.co/YLX2tXt/gif-bending.gif" alt="gif-bending" width="400">
 <br>
-<p2>Image: A degenerate bending mode of CO<sub>2</sub>
+<p2>Image: The $\nu_2$ degenerate bending mode of CO<sub>2</sub>
 </p2>
 </div>
 

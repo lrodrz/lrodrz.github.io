@@ -2,7 +2,7 @@
 layout: post
 title:  "Website Updates"
 author: Larry Rodriguez
-date:   2022-03-27 00:00:18 -0700
+date:   2022-05-28 00:00:18 -0700
 categories: updates
 ---
 
@@ -23,7 +23,11 @@ categories: updates
 <br>
 ## Updates
 
-<h4> <u> <i> March 31, 2021: </i>  </u> </h4>
+<h4> <u> <i> May 28, 2022: </i>  </u> </h4>
+
+I have finished my about me page. This week I attended a virtual conference at Los Alamos National Laboratory on "Machine Learning in Chemical and Materials Sciences". I learned a lot about what is being used in the landscape currently, so will be finally putting a dent in the article about machine learning mathematics page that I started too long ago. 
+
+<h4> <u> <i> March 31, 2022: </i>  </u> </h4>
 <p>
 Today I'm trying to have a more interactive feed in my `/research/`
 page. In doing so, I'm having to figure out what is going on with the liquid language for fetching tags. I got a little confused by the way it was explained over at the jekyll main page but I think I have the gist down. 

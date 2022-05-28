@@ -14,9 +14,9 @@ layout: home
 </style>
 
 <div class="container">
-<a title="Martin Ridley
-, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Commercial_Street_%26_clock_tower_Newport_(4641327).jpg"><img width="900" alt="Commercial Street &amp; clock tower Newport (4641327)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Commercial_Street_%26_clock_tower_Newport_%284641327%29.jpg/512px-Commercial_Street_%26_clock_tower_Newport_%284641327%29.jpg"></a>
-<p>Picture: South Wales <i>circa</i>  1900-1910 By: Martin Ridley</p>
+<img src="https://i.ibb.co/JHhHt26/IMG-6811.jpg" alt="Mt Whitney" title="Whitney" width="650">
+
+<p>Picture: A view of Lone Pine and Inyo County from Mount Whitney. </p>
 
 </div>
 
@@ -32,7 +32,7 @@ Welcome to the blog! <u>The site is brand new (first published on March 27, 2022
 
 <h2><u>Picture of the Month: </u></h2>
 
-Already with a full ambition and a lot of work ahead of me, I think that I will add some kind of photo of the month or something in this spot and comment on different photos that I find over the internet. This months photo features a nice clock tower taken more than a hundred years ago in the British Isles. A theme for this website is time so its only appropriate that one of the first featured photos feature a time keeping device. 
+This month I'm showcasing a glimpse of Californias great outdoors from Mount Whitney in Inyo County.
 
 <br>
 
