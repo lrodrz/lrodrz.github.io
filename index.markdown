@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+use_math: true
 ---
 
 <style type="text/css" media="screen">
@@ -14,9 +15,9 @@ layout: home
 </style>
 
 <div class="container">
-<img src="https://i.ibb.co/JHhHt26/IMG-6811.jpg" alt="Mt Whitney" title="Whitney" width="650">
+<img src="https://i.ibb.co/cC8qBxk/IMG-9701.jpg" alt="Mcheifblackboard" title="MasterCheifBlackboard" width="650">
 
-<p>Picture: A view of Lone Pine and Inyo County from Mount Whitney. </p>
+<p>Picture: A picture of a Master Chief Pop! toy from the Halo Franchise in front of the blackboard at my research lab at Cal State LA. On the board I am working on a problem from my statistics class where I prove that $\text{log}[L(\lambda|\overrightarrow{x})] = l(\lambda|\overrightarrow{x}) = \left( \sum^{n}_{i=1}\right)\text{log}\lambda - n\lambda - \sum^{n}_{i=1}\text{log}x_{i}! $</p>
 
 </div>
 
