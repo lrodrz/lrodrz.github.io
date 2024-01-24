@@ -26,6 +26,19 @@ Artificial Intelligence (AI) is a term that widely applies to a wide range diffe
 In my own personal journey, I have found that AI algorithms are specialized tools for scientific discovery. This means that while generative AI systems like OpenAI’s ChatGPT can recreate human writing, they are not mobile like Boston Dynamics’ Spot robot. Each AI tool can handle a specific task based on the information given to it or the design of its architecture/ algorithm.  
 As a part of my formal training, I have explored several AI tools for my research. Here I will attempt to talk about the various statistical techniques, algorithms, neural networks, as well as machine learning algorithms that I have experience in as well as some applications that I have explored with them. 
 
+As I update this page and blog over time, I hope to cover the following topics in artificial intelligence
+
+1. Brief History of Artificial Intelligence (AI)
+2. AI fundamentals to modern AI
+3. Statistical Fundamentals of AI
+4. Basic Machine Learning
+5. Neural Networks
+6. AI Ethics
+7. AI and Societal Implications
+8. Generative AI
+8. General Artificial Intelligence (AGI)
+
+
 # Statisical Techniques
 
 To begin our exploration into AI, we will look at a simpler case of analysis of variance (ANOVA). ANOVA is a statistical method used to compare the means of three or more groups of data. Below we have an example of iron concentrations at different depths. Basic statistical methodology dictates using plots to analyze the data followed by using a statistical tool like ANOVA to test the differences in means among the different groups. 
