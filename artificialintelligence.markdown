@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Artificial-Intellegence"
+title: "Artificial-Intelligence"
 permalink: /artificialintelligence/
 use_math: true
 ---

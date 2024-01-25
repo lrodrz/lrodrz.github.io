@@ -12,7 +12,13 @@ use_math: true
     text-align: center;
   }
   p { text-indent: 25px; }
+  noind {
+    text-indent: 0;
+  }
 </style>
+<!-- Legend:           -->
+<!-- noind = no indent -->
+
 
 <div class="container">
 <img src="https://i.ibb.co/cC8qBxk/IMG-9701.jpg" alt="Mcheifblackboard" title="MasterCheifBlackboard" width=600>
@@ -48,9 +54,13 @@ $\text{log}[L(\lambda|\overrightarrow{x})] = l(\lambda|\overrightarrow{x}) = \le
 <br>
 
 <h2><u>Blog Details: </u></h2>
-
-<p>If you would like to know more about the sites construction and see the source code for the blog, check out my github repository at <a href="https://github.com/lrodrz/lrodrz.github.io">https://github.com/lrodrz/lrodrz.github.io</p>
-
+<!-- no ind is defined above, its for indentation -->
+<noind> 
+If you would like to know more about the sites construction and see the source code for the blog, check out my github repository at <a href="https://github.com/lrodrz">
+    <img alt="GitHub logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" height="16" />
+    lrodrz
+</a>
+</noind>
 <br>
 
 
