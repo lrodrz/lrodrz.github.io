@@ -11,6 +11,11 @@ use_math: true
   p { text-indent: 25px;
       font-size: 16px; 
   }
+  grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
 </style>
 
 
@@ -93,6 +98,20 @@ Image: <a href="https://www.uniprot.org/uniprot/P0DPB8">A uniprot</a> cartoon of
 <div class="container">
 <h4>For information about conferences and presentations please see my <a href="/about/">about-me</a> page.</h4>
 </div>
+
+<br>
+
+<h3> Poster Presentations: </h3>
+
+<grid>
+<a href="https://drive.google.com/file/d/123HAg7Stw1aC85T6fjwyEp8NL-7mKe3L/view?usp=sharing">
+  <img src="https://i.ibb.co/WHCJ2QS/Screenshot-2024-01-24-185329.png" alt="Description of the image" width=400>
+</a> 
+
+<a href="https://drive.google.com/file/d/1cXJYeNzG7MaTdwIn9Jovsx6JXt-10lM-/view?usp=sharing">
+  <img src="https://i.ibb.co/ws8pHc4/Screenshot-2024-01-24-185407.png" alt="Description of the image" width=400>
+</a>
+</grid>
 
 <br>
 
