@@ -30,6 +30,7 @@ use_math: true
 <a href="https://docs.google.com/document/d/1-94z5pGH82ASRE35aLlTAT7hAanZYivD/edit?usp=sharing&ouid=105026313310214492121&rtpof=true&sd=true">📄CV</a>
 
 </div>
+<!-- end Professional Socials -->
 
 <br>
 
@@ -56,6 +57,8 @@ My first break in research was via the lab of Dr. Yong Ba in 2016 where I explor
 I joined Dr. Sode’s lab in Fall 2020 and I graduated with my BS in 2021. Thanks to Dr. Sode’s mentorship, I learned the basics of quantum mechanics (enrolling also in this class), and computational chemistry. This kindled a great passion and curiosity in computational science, which enriched my hobbies of creating and scripting 3D-printed robots. 
 
 In Dr. Sode’s lab I undertook constructing a set of potential energy surfaces for four van der Waals rare-gas CO<sub>2</sub> complexes (Rg-CO<sub>2</sub>; Rg = He, Ne, Kr, Xe). We used permutationally invariant polynomials to construct a potential energy function for each complex and fit these against a set of 44,000 Rg-CO<sub>2</sub> configuration potentials calculated at the CCSD[t] level of theory using Tikhonov regularization. A paper on this is in preparation to be submitted to the Journal of Physical Chemistry A in early 2024.
+
+
 
 For more information on my research, please visit my <a href="/research" >research</a> page
 
