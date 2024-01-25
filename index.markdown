@@ -53,7 +53,7 @@ $\text{log}[L(\lambda|\overrightarrow{x})] = l(\lambda|\overrightarrow{x}) = \le
 
 <br>
 
-<h2><u>Blog Details: </u></h2>
+<h2><u>Blog Details:</u></h2>
 <!-- no ind is defined above, its for indentation -->
 <noind> 
 If you would like to know more about the sites construction and see the source code for the blog, check out my github repository at <a href="https://github.com/lrodrz">
