@@ -5,24 +5,24 @@ permalink: /research/
 use_math: true
 ---
 <style type="text/css" media="screen">
-  .container {
-    text-align: center;
-  }
-  p { text-indent: 25px;
-      font-size: 16px; 
-  }
-  grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-  }
-</style>
+.center {
+  text-align: center;
+}
+p { text-indent: 25px;
+    font-size: 16px; 
+}
+grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+</style> 
 
 
 <br>
 
 <h3> Sode Lab: </h3>
-<div class="container">
+<div class="center">
 
 <br>
 
@@ -30,11 +30,13 @@ Principal Investigator: Dr. Olaseni Sode
 
 <br><br>
 
-Theoretical computational chemistry and vibrational spectroscopy.</div>
+Theoretical computational chemistry and vibrational spectroscopy.
+
+</div>
 
 <br>
 
-<div class="container">
+<div class="center">
 <img src="https://i.ibb.co/YLX2tXt/gif-bending.gif" alt="gif-bending" width="400">
 <br>
 <p2>Image: The $\nu_2$ degenerate bending mode of CO<sub>2</sub>
@@ -49,7 +51,7 @@ My current work is in Dr. Olaseni Sode’s laboratory research group. Our goal i
 <br>
 
 <h3> Ba Lab: </h3>
-<div class="container">
+<div class="center">
 <br>
 
 Principal Investigator: Dr. Yong Ba
@@ -59,7 +61,7 @@ Principal Investigator: Dr. Yong Ba
 Synthesis and Characterization of $\beta$-clyclodextrin clathrate structures for the inclusion of anti cancer molecules such as sorafineb.</div>
 
 <br>
-<div class="container">
+<div class="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Cyclodextrin.svg" title="beta-cyclodextrin" width="800" >
 </div>
 <p2>Image: The typical family of cyclodextrins. In the center we have beta cyclodextrin. Image from wikipedia's <a href="https://en.wikipedia.org/wiki/Cyclodextrin">cylodextrin</a> page.</p2>
@@ -70,7 +72,7 @@ Synthesis and Characterization of $\beta$-clyclodextrin clathrate structures for
 <br>
 
 <h3> Hayes Lab: </h3>
-<div class="container">
+<div class="center">
 
 <br>
 
@@ -95,7 +97,7 @@ Image: <a href="https://www.uniprot.org/uniprot/P0DPB8">A uniprot</a> cartoon of
 
 <br>
 
-<div class="container">
+<div class="center">
 <h4>For information about conferences and presentations please see my <a href="/about/">about-me</a> page.</h4>
 </div>
 

@@ -7,7 +7,7 @@ use_math: true
 ---
 
 <style type="text/css" media="screen">
-  .container {
+  .center {
     margin: 10px auto;
     text-align: center;
   }
@@ -20,14 +20,14 @@ use_math: true
 <!-- Legend:           -->
 <!-- noind = no indent -->
 
-<div class="container">
+<div class="center">
 <h1>Larry's Blog</h1>
 </div>
 
 <br>
 
 <!-- Professional Socials -->
-<div class="container">
+<div class="center">
 
 <a href="https://orcid.org/0000-0002-2527-7204">
     <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
@@ -48,7 +48,7 @@ use_math: true
 
 <br>
 
-<div class="container">
+<div class="center">
 <img src="https://i.ibb.co/cC8qBxk/IMG-9701.jpg" alt="Mcheifblackboard" title="MasterCheifBlackboard" width=600>
 
 
@@ -70,7 +70,7 @@ Welcome to the blog! I launched this blog on March 27, 2022, to document my rese
 
 This month I am showcasing a photo from my research lab at Cal State LA. On the board I am working on a problem from my statistics class where I prove that 
 
-<div class="container">
+<div class="center">
 
 $\text{log}[L(\lambda|\overrightarrow{x})] = l(\lambda|\overrightarrow{x}) = \left( \sum^{n}_{i=1}\right)\text{log}\lambda - n\lambda - \sum^{n}_{i=1}\text{log}x_{i}! $
 .
