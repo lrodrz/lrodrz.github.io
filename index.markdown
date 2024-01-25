@@ -45,7 +45,7 @@ This month I am showcasing a photo from my research lab at Cal State LA. On the 
 <div class="container">
 
 $\text{log}[L(\lambda|\overrightarrow{x})] = l(\lambda|\overrightarrow{x}) = \left( \sum^{n}_{i=1}\right)\text{log}\lambda - n\lambda - \sum^{n}_{i=1}\text{log}x_{i}! $
-
+.
 </div>
 
 </p>

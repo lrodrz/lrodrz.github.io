@@ -35,7 +35,7 @@ use_math: true
 
 <div class="container">
 <img width="800" img src="https://i.ibb.co/PjhhGp7/IMG-2148.jpg" alt="Cal State LA: Annenberg Science Complex">
-<p>Picture: My flash talk presentation at the minority opportunities in research (MORE) programs UCLA Lake Arrowhead Retreat</p>
+<p>Picture: My flash talk presentation at the minority opportunities in research (MORE) programs UCLA Lake Arrowhead Retreat.</p>
 </div>
 
 <!-- <div class="container">
