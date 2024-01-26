@@ -26,20 +26,30 @@ Artificial Intelligence (AI) is a term that widely applies to a wide range diffe
 In my own personal journey, I have found that AI algorithms are specialized tools for scientific discovery. This means that while generative AI systems like OpenAI’s ChatGPT can recreate human writing, they are not mobile like Boston Dynamics’ Spot robot. Each AI tool can handle a specific task based on the information given to it or the design of its architecture/ algorithm.  
 As a part of my formal training, I have explored several AI tools for my research. Here I will attempt to talk about the various statistical techniques, algorithms, neural networks, as well as machine learning algorithms that I have experience in as well as some applications that I have explored with them. 
 
+<noind>
 As I update this page and blog over time, I hope to cover the following topics in artificial intelligence
+</noind>
 
+<br>
+
+<img align="right" width=320 src="https://i.ibb.co/7t1rr20/93a9ec68-0f2b-47ca-8b1a-42675cad182a.jpg">
 1. Brief History of Artificial Intelligence (AI)
-2. AI fundamentals to modern AI
-3. Statistical Fundamentals of AI
-4. Basic Machine Learning
-5. Neural Networks
-6. AI Ethics
-7. AI and Societal Implications
-8. Generative AI
+2. Statistical Fundamentals of AI
+3. Basic Machine Learning (ML) <br>
+&nbsp;a. k-means 
+4. Neural Networks (NNs) <br> 
+&nbsp;a. e3nn <br>
+&nbsp;b. deep learning <br>
+&nbsp;c. DeepMind
+5. AI Ethics
+6. AI and Societal Implications
+7. Generative AI (ChatGPT, DALL-E [i.e., image generated on the right])
 8. General Artificial Intelligence (AGI)
+9. ML and NNs for quantum chemistry/simulation accelaration
 
+<br>
 
-# Statisical Techniques
+# Statisical Fundamentals of AI
 
 To begin our exploration into AI, we will look at a simpler case of analysis of variance (ANOVA). ANOVA is a statistical method used to compare the means of three or more groups of data. Below we have an example of iron concentrations at different depths. Basic statistical methodology dictates using plots to analyze the data followed by using a statistical tool like ANOVA to test the differences in means among the different groups. 
 Here is the code to plot the data using ggplot
