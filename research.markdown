@@ -16,8 +16,32 @@ grid {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
 }
+noind {
+  text-indent: 0;
+}
 </style> 
 
+<br>
+
+<!-- Professional Socials -->
+<div class="center">
+
+<a href="https://orcid.org/0000-0002-2527-7204">
+    <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+    Larry Rodriguez
+</a> |
+<a href="https://github.com/lrodrz">
+    <img alt="GitHub logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" height="16" />
+    lrodrz
+</a> |
+<a href="https://www.linkedin.com/in/larry-r-073154203">
+    <img alt="linkedinlogo" src="https://i.ibb.co/d25fhd6/In-Blue-96-2x.png" width="16" height="16" />
+    Larry Rodriguez
+</a> |
+<a href="https://docs.google.com/document/d/1-94z5pGH82ASRE35aLlTAT7hAanZYivD/edit?usp=sharing&ouid=105026313310214492121&rtpof=true&sd=true">📄CV</a>
+
+</div>
+<!-- end Professional Socials -->
 
 <br>
 
@@ -30,7 +54,7 @@ Principal Investigator: Dr. Olaseni Sode
 
 <br><br>
 
-Theoretical computational chemistry and vibrational spectroscopy.
+Theoretical Computational Chemistry.
 
 </div>
 
@@ -46,74 +70,48 @@ Theoretical computational chemistry and vibrational spectroscopy.
 <br>
 
 <p>
-My current work is in Dr. Olaseni Sode’s laboratory research group. Our goal is to characterize weakly attracted Van der Waals (vdW) complexes of CH<sub>4</sub>-CO<sub>2</sub> and Rg-CO<sub>2</sub> (Rg = He, Ne, Kr, Xe) using theoretical quantum vibrational computational chemical methods and machine learning. Understanding these weakly attracted complexes can help to further elucidate chemical bonding and molecular dynamics. We used ab initio computer software to optimize the geometry of these vdW complexes and calculated vibrational frequencies using Hartree-Fock, Moller-Plesset Perturbation, and Configuration interactions at the CCSD(T)-f12 level of theory, constructed a potential energy surface using our calculated data and analyzed the data using statistical regression techniques and machine learning. </p>
+My current work is in Dr. Olaseni Sode’s laboratory research group. Our goal is to characterize weakly attracted van der Waals (vdW) complexes of Rg-CO<sub>2</sub> (Rg = He, Ne, Kr, Xe) using quantum chemistry software and machine learning. Understanding these weakly attracted complexes can help to elucidate weak intermolecular interactions.</p>
 
-<br>
+For a brief explanation of the fundamentals and motivation for this research check out my <a href='/research/2022/03/27/Research.html'>research update</a> from March of 2022. 
 
-<h3> Ba Lab: </h3>
-<div class="center">
-<br>
+In short, to characterize these weakly interacting complexes we use their vibrational structures. To do this we constructed a potential energy surface for each of the complexes. This surface is like a piece of paper that is warped in such a way that it has a low point or a divot in its center (an example of this can be found in the <a href='/research/2022/03/27/Research.html'>research update</a> from March of 2022). The lowest point in the surface is the surface’s global minimum. 
 
-Principal Investigator: Dr. Yong Ba
+In the potential energy surface of Rg-CO$_2$ there are three variables that change the shape of the surface: the intermolecular distance between the carbon dioxide, angle that the carbon dioxide takes relative to the rare-gas (Rg) atom and the energy. When you plot the surface, the intermolecular distance and angle are plotted on the x and y axes and the energy is plotted on the z axis. 
 
-<br><br>
+The Sode lab has previously published the potential energy surface of the Ar-CO$_2$ complex using a contour plot that I have posted below. On this plot the z-axis is depicted in the contours like a contour map. Recall that the closer the lines are to each other in a contour plot, the steeper the region is on the plot. 
 
-Synthesis and Characterization of $\beta$-clyclodextrin clathrate structures for the inclusion of anti cancer molecules such as sorafineb.</div>
-
-<br>
-<div class="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Cyclodextrin.svg" title="beta-cyclodextrin" width="800" >
-</div>
-<p2>Image: The typical family of cyclodextrins. In the center we have beta cyclodextrin. Image from wikipedia's <a href="https://en.wikipedia.org/wiki/Cyclodextrin">cylodextrin</a> page.</p2>
-<br>
-
-<p>In Dr. Yong Ba’s laboratory, our research goal was to synthesize molecular linkers for β-cyclodextrin to create dimerized clathrates for the inclusion of nonpolar anti-cancer molecules such as Sorafenib for targeted delivery in the human body. Inclusion of Sorafenib in β-cyclodextrin results in improved solubility and reduction of systemic toxicity and side effects of Sorafenib. I learned to organize and analyze synthetic methods for synthesizing compounds and analyzed said compounds using NMR and MALDI-TOF. I presented a poster on this research in 2018 at the American Chemical Society's Conference in Boston. </p>
-
-<br>
-
-<h3> Hayes Lab: </h3>
-<div class="center">
-
-<br>
-
-Principal Investigator: Dr. Micheal L. Hayes
-
-
-<br><br>
-
-Characterization of RNA editing in plants. 
-
-<br> <br>
-
-<img src="https://i.ibb.co/3MCYxF2/crisprcas13.jpg" alt="crisprcas13" width="500">
-
-<br>
-Image: <a href="https://www.uniprot.org/uniprot/P0DPB8">A uniprot</a> cartoon of CRISPR/Cas13, a popular RNA editing alternative to CRISPR/Cas9
-</div>
-
-<br>
-
-<p>In Dr. Michael Hayes laboratory, our research goal was to investigate RNA editing and processing mechanisms for the advancement of agricultural science. Unlike DNA editing, nucleotide sequence changes to RNA are transient which makes RNA editing safer and less prone to the long-term hazards of off-target editing. RNA editing mechanisms can be engineered to fix genetic diseases caused by mutations in humans and plants. I performed separations using size exclusion and ion-exchange chromatography and analyzed fractionated extractions using SDS-PAGE, and protein immunoblots. </p>
-
-<br>
-
-<div class="center">
-<h4>For information about conferences and presentations please see my <a href="/about/">about-me</a> page.</h4>
+<div class=center>
+<img width=400 src="https://i.postimg.cc/gcTk6M0X/Screenshot-2024-01-25-191009.png">
 </div>
 
 <br>
 
 <h3> Poster Presentations: </h3>
 
+<noind>
+To see the full posters hosted by Google, click on the corresponding image.
+</noind>
+
+<br>
+
 <grid>
 <a href="https://drive.google.com/file/d/123HAg7Stw1aC85T6fjwyEp8NL-7mKe3L/view?usp=sharing">
-  <img src="https://i.ibb.co/WHCJ2QS/Screenshot-2024-01-24-185329.png" alt="Description of the image" width=400>
+  <img src="https://i.postimg.cc/yNCN8nPq/Screenshot-2024-01-24-185329.png" alt="Description of the image" width=400>
 </a> 
 
 <a href="https://drive.google.com/file/d/1cXJYeNzG7MaTdwIn9Jovsx6JXt-10lM-/view?usp=sharing">
-  <img src="https://i.ibb.co/ws8pHc4/Screenshot-2024-01-24-185407.png" alt="Description of the image" width=400>
+  <img src="https://i.postimg.cc/GhbVdDYM/Screenshot-2024-01-24-185407.png" alt="Description of the image" width=400>
 </a>
 </grid>
+
+<br>
+
+<noind>
+Please check out my  <a href="https://docs.google.com/document/d/1-94z5pGH82ASRE35aLlTAT7hAanZYivD/edit?usp=sharing&ouid=105026313310214492121&rtpof=true&sd=true">📄Curriculum vitae </a> or my <a href="https://orcid.org/0000-0002-2527-7204">
+    <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+    ORCiD
+</a> for a comprehensive summary of my past and present research roles, projects, and awards.
+</noind>
 
 <br>
 

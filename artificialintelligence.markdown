@@ -6,7 +6,7 @@ use_math: true
 ---
 
 <style type="text/css" media="screen">
-  .container {
+  .center {
     text-align: center;
   }
   p { text-indent: 25px;
@@ -14,7 +14,27 @@ use_math: true
   }
 </style>
 
+<br>
 
+<!-- Professional Socials -->
+<div class="center">
+
+<a href="https://orcid.org/0000-0002-2527-7204">
+    <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+    Larry Rodriguez
+</a> |
+<a href="https://github.com/lrodrz">
+    <img alt="GitHub logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" height="16" />
+    lrodrz
+</a> |
+<a href="https://www.linkedin.com/in/larry-r-073154203">
+    <img alt="linkedinlogo" src="https://i.ibb.co/d25fhd6/In-Blue-96-2x.png" width="16" height="16" />
+    Larry Rodriguez
+</a> |
+<a href="https://docs.google.com/document/d/1-94z5pGH82ASRE35aLlTAT7hAanZYivD/edit?usp=sharing&ouid=105026313310214492121&rtpof=true&sd=true">📄CV</a>
+
+</div>
+<!-- end Professional Socials -->
 
 <br>
 
@@ -32,7 +52,7 @@ As I update this page and blog over time, I hope to cover the following topics i
 
 <br>
 
-<img align="right" width=320 src="https://i.ibb.co/7t1rr20/93a9ec68-0f2b-47ca-8b1a-42675cad182a.jpg">
+<img align="right" width=320 src="https://i.postimg.cc/nz3yxW2D/93a9ec68-0f2b-47ca-8b1a-42675cad182a.jpg">
 1. Brief History of Artificial Intelligence (AI)
 2. Statistical Fundamentals of AI
 3. Basic Machine Learning (ML) <br>
@@ -68,7 +88,7 @@ plt
 
 This code generates the box plots, shown below, of iron concentrations at different depths. The data is stored in a data frame called iron. The aes() function maps the depth variable to the x-axis and the iron variable to the y-axis. The fill parameter is set to depth, which colors the boxes based on the depth. The geom_boxplot() function creates the box plot. The theme() function is used to customize the appearance of the plot, such as removing the legend and setting the background color. The labs() function is used to add a title to the plot. The xlab() and ylab() functions are used to label the x-axis and y-axis, respectively. Finally, the plt object is printed to display the plot.
 
-<img img src="https://i.ibb.co/3hp7yBV/Screenshot-2024-01-22-111743.png">
+<img img src="https://i.postimg.cc/MpT7YZ2Z/Screenshot-2024-01-22-111743.png">
 
 We then use ANOVA, in this case ANOVA in the glm package on R is used compare the means of the iron concentration samples at the different depths. 
 
@@ -109,7 +129,7 @@ Now, let's take a look under the hood of this particular statistical model. The 
 According to libretexts.com, ANOVA models are derived under the assumption of linearity of model parameters and follow the generalized linear model (glm) as 
 
 <!-- LaTeX Math -->
-<div class="container">
+<div class="center">
 <h4> $ Y = X\beta + \varepsilon $ </h4>
 </div>
 
@@ -119,7 +139,7 @@ In this equation we have the $E(Y)$ which is known as the 'link function' which 
 To describe some fundamental ANOVA I will go over two-factor ANOVA. The saturated two-factor ANOVA model is
 
 <!-- LaTeX Math -->
-<div class="container">
+<div class="center">
 <h4> $ E(Y_{jkl}) = \mu + \alpha_j + \beta_k + (\alpha\beta)_{jk} $ </h4>
 </div>
 

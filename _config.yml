@@ -22,7 +22,7 @@ title: Larry's Blog
 timezone: America/Los_Angeles
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Chronos Blog: A blog about the journey of a physical computational chemist through 
+  A blog about the journey of a physical computational chemist through 
   the world of artificial intellegence, simulation, and beyond. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
