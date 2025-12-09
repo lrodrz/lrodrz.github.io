@@ -49,32 +49,28 @@ use_math: true
 <br>
 
 <div class="center">
-<img src="https://i.ibb.co/cC8qBxk/IMG-9701.jpg" alt="Mcheifblackboard" title="MasterCheifBlackboard" width=600>
-
-
+<!-- <img src="https://i.ibb.co/cC8qBxk/IMG-9701.jpg" alt="Mcheifblackboard" title="MasterCheifBlackboard" width=600>
 <p>Picture: A picture of a Master Chief Pop! toy from the Halo Franchise in front of the blackboard at my research lab at Cal State LA. </p></div>
-<!-- must put the p and div at the end of the sentence here -->
+must put the p and div at the end of the sentence here -->
 
+
+<img src="https://i.ibb.co/23q8Cs8n/IMG-1546.jpg" alt="foxtheabaker" title="FoxTheaterBakersfield" width=600>
+<p><b>Picture:</b> The Bakersfield Fox Theater in Bakersfield, CA. My Hometown </p></div>
+<!-- must put the p and div at the end of the sentence here  -->
 
 <br>
 
 <h2><u>A Kind Welcome: </u></h2>
 
-Welcome to the blog! I launched this blog on March 27, 2022, to document my research and career progress as a physical computational chemistry researcher. To learn more about me, please visit the information tab on the header bar of this website. If you are on mobile, you can access the menu options by clicking on the hamburger menu on the right. For information about my research, please visit the research page.
+Welcome to the blog! I launched this blog on March 27, 2022. This blog is intended to document my journey as a computational biophysicist and theoretical computational chemist. Here I plan to document my research and career progress. To learn more about me, please visit the "About Me" tab on the header bar of this website. I have also segmented my main research areas into separate pages that can be accessed from the header bar. If you are on mobile, you can access the menu options by clicking on the hamburger menu on the right. For information about my research, please visit the "Research" page.
 
 <br>
 
-<h2><u>Picture of the Month: </u></h2>
+<h2><u>Featured Picture: </u></h2>
 <!-- picture paragraph -->
 <p>
 
-This month I am showcasing a photo from my research lab at Cal State LA. On the board I am working on a problem from my statistics class where I prove that 
-
-<div class="center">
-
-$\text{log}[L(\lambda|\overrightarrow{x})] = l(\lambda|\overrightarrow{x}) = \left( \sum^{n}_{i=1}\right)\text{log}\lambda - n\lambda - \sum^{n}_{i=1}\text{log}x_{i}! $
-.
-</div>
+This month I am showcasing a picture of the Fox Theater in Bakersfield, CA. This theater is in the heart of Bakersfield's downtown district just down the street from the Padre Hotel which is also another Bakersfield landmark. Since I visited the fox recently for a show, I decided to snap a photo to commemorate the moment. 
 
 </p>
 <!-- end picture paragraph -->

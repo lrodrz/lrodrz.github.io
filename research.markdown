@@ -45,7 +45,37 @@ noind {
 
 <br>
 
-<h3> Sode Lab: </h3>
+<div class="center"> <h2> <b> Palermo Lab </b> </h2> </div>
+
+<div class="center">
+
+
+
+Principal Investigator: Dr. Giulia Palermo 
+
+<br><br>
+
+<u> Computational Biophysics </u>
+
+<br>
+<br>
+
+<a href="http://www.palermolab.com">PalermoLab.com</a>
+
+</div>
+
+<br>
+
+<p>
+At PalermoLab, My research focuses on developing and applying of advanced classical and quantum mechanical molecular dynamics (MD) simulations to investigate the conformational dynamics and molecular mechanisms of CRISPR Cas systems. </p>
+<p>
+Additionally, in PalermoLab, we explore the use of artificial intellegence algorithms and frameworks for the advancement of molecular dynamics simulatoins to explore the rare-event conformational space. </p>
+<p>
+By employing these computional techniques, I aim to gain a fundamental understanding of DNA/RNA molecular systems and gene editors, ultimately providing mechanistic insights that complement and guide rational experimental design. </p>
+
+
+
+<div class="center"> <h2> <b> Sode Lab </b> </h2> </div>
 <div class="center">
 
 <br>
@@ -54,8 +84,7 @@ Principal Investigator: Dr. Olaseni Sode
 
 <br><br>
 
-Theoretical Computational Chemistry.
-
+<u> Theoretical Computational Chemistry </u>
 </div>
 
 <br>
@@ -70,13 +99,13 @@ Theoretical Computational Chemistry.
 <br>
 
 <p>
-My current work is in Dr. Olaseni Sode’s laboratory research group. Our goal is to characterize weakly attracted van der Waals (vdW) complexes of Rg-CO<sub>2</sub> (Rg = He, Ne, Kr, Xe) using quantum chemistry software and machine learning. Understanding these weakly attracted complexes can help to elucidate weak intermolecular interactions.</p>
+Previously, in my masters program at the California State University in Los angeles, I worked in the laboratory of Dr. Olaseni Sode’s laboratory research group. My masters thesis was to characterize weakly attracted van der Waals (vdW) complexes of Rg-CO<sub>2</sub> (Rg = He, Ne, Kr, Xe) using quantum chemistry software and machine learning. Understanding these weakly attracted complexes helped to elucidate weak intermolecular interactions of rare-gas systems.</p>
 
 For a brief explanation of the fundamentals and motivation for this research check out my <a href='/research/2022/03/27/Research.html'>research update</a> from March of 2022. 
 
-In short, to characterize these weakly interacting complexes we use their vibrational structures. To do this we constructed a potential energy surface for each of the complexes. This surface is like a piece of paper that is warped in such a way that it has a low point or a divot in its center (an example of this can be found in the <a href='/research/2022/03/27/Research.html'>research update</a> from March of 2022). The lowest point in the surface is the surface’s global minimum. 
+In short, to characterize these weakly interacting complexes we use their vibrational structures. To do this, we constructed a potential energy surface for each of the complexes. This surface is like a piece of paper that is warped in such a way that it has a low point or a divot in its center (an example of this can be found in the <a href='/research/2022/03/27/Research.html'>research update</a> from March of 2022). The lowest point in the surface is the surface’s global minimum. 
 
-In the potential energy surface of Rg-CO$_2$ there are three variables that change the shape of the surface: the intermolecular distance between the carbon dioxide, angle that the carbon dioxide takes relative to the rare-gas (Rg) atom and the energy. When you plot the surface, the intermolecular distance and angle are plotted on the x and y axes and the energy is plotted on the z axis. 
+In the potential energy surface of Rg-CO$_2$, there are three variables that change the shape of the surface: the intermolecular distance between the carbon dioxide, angle that the carbon dioxide takes relative to the rare-gas (Rg) atom and the energy. When you plot the surface, the intermolecular distance and angle are plotted on the x and y axes and the energy is plotted on the z axis. 
 
 The Sode lab has previously published the potential energy surface of the Ar-CO$_2$ complex using a contour plot that I have posted below. On this plot the z-axis is depicted in the contours like a contour map. Recall that the closer the lines are to each other in a contour plot, the steeper the region is on the plot. 
 
