@@ -4,6 +4,7 @@ title:  "Darktheme Update"
 author: Larry Rodriguez
 date:   2025-12-18 02:50:18 -0700
 categories: updates
+# comments: false  # if you want to disable comments on a specific post
 ---
 
 

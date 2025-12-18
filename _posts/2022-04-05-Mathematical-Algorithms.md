@@ -6,6 +6,7 @@ categories: artificialintelligence
 author: Larry Rodriguez
 use_math: true
 tags: "machine-learning"
+# comments: false  # if you want to disable comments on a specific post
 ---
 
 <style type="text/css" media="screen">

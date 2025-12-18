@@ -6,7 +6,7 @@ categories: research
 author: Larry Rodriguez
 use_math: true
 tags: "research"
-
+# comments: false  # if you want to disable comments on a specific post
 ---
 
 <!-- css styling -->

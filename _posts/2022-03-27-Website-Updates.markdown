@@ -4,6 +4,7 @@ title:  "Website Updates"
 author: Larry Rodriguez
 date:   2022-05-28 00:00:18 -0700
 categories: updates
+# comments: false  # if you want to disable comments on a specific post
 ---
 
 
