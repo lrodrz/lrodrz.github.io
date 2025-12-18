@@ -22,8 +22,8 @@ title: Larry's Blog
 timezone: America/Los_Angeles
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about the journey of a physical computational chemist through 
-  the world of artificial intellegence, simulation, and beyond. 
+  A blog documenting the journey of a computational biophysicist 
+  at the intersection of molecular simulation, artificial intelligence, chemistry, gene editing, and beyond.   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lrodrz1
@@ -34,14 +34,36 @@ youtube_channel_name: Larry Rodriguez
 markdown: kramdown
 # Build settings
 
-theme: minima
-minima:
-  skin: dark
-  date_format: "%b %-d, %Y"
+# theme: minima
+# minima:
+#   skin: dark
+#   date_format: "%b %-d, %Y"
 
+# plugins:
+#   - jekyll-feed
+
+# LOCAL BUILD / EDIT WORKFLOW (Jekyll + GitHub Pages + Midnight theme)
+# 1) Install dependencies (only needed after changing Gemfile):
+#    bundle install
+# 2) Serve the site locally (build + watch):
+#    bundle exec jekyll serve --livereload
+# 3) View site at:
+#    http://localhost:4000
+# 4) Styling changes:
+#    - Edit /assets/css/style.scss
+#    - Keep the @import "{{ site.theme }}" at the top
+# 5) Layout / structure changes:
+#    - Copy theme layout into /_layouts/default.html
+#    - Edit locally to override the theme
+# 6) Small head tweaks (favicon, meta, analytics):
+#    - Add files to /_includes/ (e.g. head-custom.html)
+# NOTE:
+# - Restart `jekyll serve` after changing _config.yml
+# - GitHub Pages will auto-build on push (no local build needed for deploy)
+
+theme: jekyll-theme-midnight
 plugins:
-  - jekyll-feed
-
+- jekyll-feed
 
 
 

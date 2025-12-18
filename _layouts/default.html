@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      {% if site.description %}<p>{{ site.description }}</p>{% endif %}
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/moleculardynamics/' | relative_url }}">Molecular Dynamics</a>
+        <a href="{{ '/artificialintelligence/' | relative_url }}">Artificial Intelligence</a>
+      </nav>
+
+      {% include socials.html %}
+      <hr>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>

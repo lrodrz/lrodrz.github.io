@@ -2,7 +2,7 @@
 layout: post
 title:  "Machine Learning Projects"
 date:   2022-04-04 09:56:18 -0700
-categories: machine-learning
+categories: artificialintelligence
 author: Larry Rodriguez
 use_math: true
 tags: "machine-learning"

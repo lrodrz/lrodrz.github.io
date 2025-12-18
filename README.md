@@ -65,6 +65,23 @@ https://jekyllrb.com/docs/structure/
 
 ## Features: 
 
+
+<b><u>December 2025:</b></u>
+
+Currently, I am going to work on adding comments to my website. This way I can get feedback, and perhaps some encouragement to continue adding more information to my blog. 
+
+I'm planning on using the utterances repository: https://utteranc.es/
+
+Also, perhaps as I get some tutorials or more information on this blog I will add a donation button to help people buy me a coffee or two if they feel like I helped them out. As a scientist, I do hope that my contributions make an impact in other's lives so this is a way to both get additional encouragment and measure the value that I am giving others out there. 
+
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+Possibly change the theme to dark theme: 
+
+https://github.com/pages-themes/midnight?tab=readme-ov-file
+
+
+
 <b><u>April 2022:</b></u> 
 
 <u>Plotting:</u>

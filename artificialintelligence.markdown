@@ -14,29 +14,7 @@ use_math: true
   }
 </style>
 
-<br>
 
-<!-- Professional Socials -->
-<div class="center">
-
-<a href="https://orcid.org/0000-0002-2527-7204">
-    <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-    Larry Rodriguez
-</a> |
-<a href="https://github.com/lrodrz">
-    <img alt="GitHub logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" height="16" />
-    lrodrz
-</a> |
-<a href="https://www.linkedin.com/in/larry-r-073154203">
-    <img alt="linkedinlogo" src="https://i.ibb.co/d25fhd6/In-Blue-96-2x.png" width="16" height="16" />
-    Larry Rodriguez
-</a> |
-<a href="https://docs.google.com/document/d/1-94z5pGH82ASRE35aLlTAT7hAanZYivD/edit?usp=sharing&ouid=105026313310214492121&rtpof=true&sd=true">📄CV</a>
-
-</div>
-<!-- end Professional Socials -->
-
-<br>
 
 <h1>Artificial Intelligence and Machine Learning</h1>
 
@@ -88,7 +66,9 @@ plt
 
 This code generates the box plots, shown below, of iron concentrations at different depths. The data is stored in a data frame called iron. The aes() function maps the depth variable to the x-axis and the iron variable to the y-axis. The fill parameter is set to depth, which colors the boxes based on the depth. The geom_boxplot() function creates the box plot. The theme() function is used to customize the appearance of the plot, such as removing the legend and setting the background color. The labs() function is used to add a title to the plot. The xlab() and ylab() functions are used to label the x-axis and y-axis, respectively. Finally, the plt object is printed to display the plot.
 
-<img img src="https://i.postimg.cc/MpT7YZ2Z/Screenshot-2024-01-22-111743.png">
+
+<div class="center">
+<img img src="https://i.postimg.cc/MpT7YZ2Z/Screenshot-2024-01-22-111743.png" width=600> </div>
 
 We then use ANOVA, in this case ANOVA in the glm package on R is used compare the means of the iron concentration samples at the different depths. 
 
@@ -159,16 +139,15 @@ According to Wikipedia’s page on machine learning (ML), ML is the study of com
 For a comprehensive introduction to machine learning, I reccommend <a href="https://read.amazon.com/kp/embed?asin=B07XGF2G87&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_5QNGJAB2RD3K6TF6WXB9">Aurelien Geron's Hands-on Machine Learning with Scikit-Learn, Keras & Tensorflow</a>
 
 
-<h3> Recent Machine Learning Posts: </h3>
+<div class="recent-posts">
+  <h2>Recent Artificial Intelligence Posts</h2>
 
-{% for machinepost in site.categories.machine-learning %}
-  <h4> <a href="{{machinepost.url}}">
-  --- &nbsp; &nbsp; 
-  {{machinepost.date | date: "%a, %B %d, %Y" }}
-  :
-  &nbsp;
-  {{machinepost.title}}
-  </a> 
-  </h4>
-  <br>
-{% endfor %}
+  {% for post in site.categories.artificialintelligence %}
+    <h4>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.date | date: "%a, %B %d, %Y" }} — {{ post.title }}
+      </a>
+    </h4>
+  {% endfor %}
+</div>
+

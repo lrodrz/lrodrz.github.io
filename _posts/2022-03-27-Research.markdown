@@ -18,6 +18,9 @@ tags: "research"
     max-width: 600px;
     text-align: center;
   }
+  .img-white {
+  background: #ffffff;
+}
 </style>
 
 ### Current Activity: 
@@ -68,7 +71,7 @@ learning model to predict vibrational frequencies given a configuration of a Ar-
 <br>
 
 <div class="container">
-<a title="Robert A. Rohde, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Sunlight"><img width="512" alt="Solar spectrum en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Solar_spectrum_en.svg/512px-Solar_spectrum_en.svg.png"></a>
+<a title="Robert A. Rohde, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Sunlight"><img class="img-white" width="512" alt="Solar spectrum en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Solar_spectrum_en.svg/512px-Solar_spectrum_en.svg.png"></a>
 </div>
 <h5>Fig 1b: Sunlight has a diverse electromagentic spectrum. In this image we see wavelength on the x axis and solar irradiance in the y axis. A black line outlines a typical 5525K blackbody radiation while the yellow area shows the unabsorped solar irridiance with the orange area showing all of the unabsorbed sunlight at sea level. The blue text shows the wavelength regions in the electromagnetic spectrum where the sunlight is absorbed. Note the declining peaks of the orange area where the absorption of sunlight has taken place due to oxygen, water, and carbon dioxide. </h5>
 
