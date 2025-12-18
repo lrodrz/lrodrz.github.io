@@ -38,7 +38,8 @@ noind {
 
 Welcome to the blog! I launched this blog on March 27, 2022. This blog is intended to document my journey as a computational biophysicist and theoretical computational chemist. Here I plan to document my research and career progress. To learn more about me, please visit the "About Me" tab on the header bar of this website. I have also segmented my main research areas into separate pages that can be accessed from the header bar. 
 
-<br>
+<h2><u>Comments live! and Welcome!: </u></h2>
+As of December 2025, I have enabled comments on my blog posts via the <a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer">Utterances</a> repository. If you would like to leave a comment on any of my blog posts, please feel free to do so! I welcome all constructive criticism and feedback and am excited to engage with the community. 
 
 <h2><u>Featured Picture: </u></h2>
 <!-- picture paragraph -->
@@ -49,7 +50,6 @@ This month I am showcasing a picture of the Fox Theater in Bakersfield, CA. This
 </p>
 <!-- end picture paragraph -->
 
-<br>
 
 <h2><u>Blog Details:</u></h2>
 <!-- no ind is defined above, its for indentation -->
