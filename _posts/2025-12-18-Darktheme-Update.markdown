@@ -39,6 +39,8 @@ And finally I had to update all of the individual pages to reflect the new chang
 
 I think this was certainly a very long and tedious process to get this dark theme to roll out but its only gotta get done once and I can continue on with just posting more posts and not having to do site maintainence. Especially considering that I do not have to host this site myself. It is all being done via GitHub Pages. 
 
+An issue that I have already found but I will have to get back to later is that the latex is not rendering properly on the new theme. I think I have to go back and check something having to do with kramdown. I will have to look into that later.
+
 Alrighty, well that is all I have for now. This took a little bit but I am very happy I was able to get it done. Time to publish this and cross my fingers. Next update, I will be adding comments via utterances!
 
 <noindent>

@@ -36,7 +36,7 @@ noind {
 
 <h2><u>A Kind Welcome: </u></h2>
 
-Welcome to the blog! I launched this blog on March 27, 2022. This blog is intended to document my journey as a computational biophysicist and theoretical computational chemist. Here I plan to document my research and career progress. To learn more about me, please visit the "About Me" tab on the header bar of this website. I have also segmented my main research areas into separate pages that can be accessed from the header bar. If you are on mobile, you can access the menu options by clicking on the hamburger menu on the right. For information about my research, please visit the "Research" page.
+Welcome to the blog! I launched this blog on March 27, 2022. This blog is intended to document my journey as a computational biophysicist and theoretical computational chemist. Here I plan to document my research and career progress. To learn more about me, please visit the "About Me" tab on the header bar of this website. I have also segmented my main research areas into separate pages that can be accessed from the header bar. 
 
 <br>
 
@@ -54,16 +54,14 @@ This month I am showcasing a picture of the Fox Theater in Bakersfield, CA. This
 <h2><u>Blog Details:</u></h2>
 <!-- no ind is defined above, its for indentation -->
 <noind> 
-If you would like to know more about the sites construction and see the source code for the blog, check out my github repository at <a href="https://github.com/lrodrz">
-    <img alt="GitHub logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" height="16" />
+If you would like to know more about the sites construction and see the source code for the blog, check out my github repository at<a href="https://github.com/lrodrz">
     lrodrz
 </a>
 </noind>
-<br>
 
 
 <div class="recent-posts">
-  <h2>Recent Updates</h2>
+  <h2>Recent Posts</h2>
 
   {% for post in site.posts limit:5 %}
     <h4>

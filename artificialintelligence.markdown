@@ -110,7 +110,9 @@ According to libretexts.com, ANOVA models are derived under the assumption of li
 
 <!-- LaTeX Math -->
 <div class="center">
-<h4> $ Y = X\beta + \varepsilon $ </h4>
+<h4> 
+$$ Y = X\beta + \varepsilon $$ 
+</h4>
 </div>
 
 In this equation we have the $E(Y)$ which is known as the 'link function' which according to statisticalhowto.com the link function maps a generalized linear model to a linear one. $Y$ itself is the response variable which is each outcome of the dependent varaibles generated from a particular distribution (i.e. exponential, Poisson, gaussian). $X\beta$ is the linear predictor which is a linear combination of unknown parmeters $\beta$ and $\varepsilon$ is the error term. 
