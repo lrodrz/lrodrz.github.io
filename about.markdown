@@ -22,7 +22,9 @@ use_math: true
   }
 </style>
 
+<div class="center"><h1>About Me</h1></div>
 
+<br>
 
 <div class="center">
 <img width="600" img src="https://i.ibb.co/PjhhGp7/IMG-2148.jpg" alt="Cal State LA: Annenberg Science Complex">
@@ -34,11 +36,9 @@ use_math: true
 <p>Picture: CSULA with the Annenberg Science Complex shown. By: Me!</p>
 </div> -->
 
-
-
 <h2><u> Some Background on Me: </u></h2>
 
-I am a graduate student in Bioengineering at the University of California, Riverside under the adisement Dr. Giulia Palermo (We are soon moving to UCLA!).  I studied Biology and biochemistry as my undergraduate major at Cal State LA and graduated with my masters in chemistry in 2024 under the advisement of Dr. Olseni Sode. My long term career plan is become a research scientist exploring the molecular basis of biological reactions, exploring electronic, and vibrational structures in the subfield of theoretical chemistry utilizing quantum computational methods, quantum molecular dynamics, classical and enhanced samplied molecular dynamics with additional explorations in using machine learning and neural networks to accelerate these calculations and simulations to speed the drug and molecular discovery process. I find that exploring the fundamental theory of the chemical reactions of biomolecualar systems is a rewarding experience with vast consequences for the scientific community. This website serves as my personal accountability tracker, where I plan to document a wealth of information about my career experiences. Additionally, it will function as a repository for the knowledge and research that I come across.
+I am a graduate student in Bioengineering at the University of California, Riverside under the advisement Dr. Giulia Palermo (We are soon moving to UCLA!).  I studied Biology and biochemistry as my undergraduate major at Cal State LA and graduated with my master’s in chemistry in 2024 under the advisement of Dr. Olaseni Sode. My long term career plan is become a research scientist exploring the molecular basis of biological reactions, exploring electronic, and vibrational structures in the subfield of theoretical chemistry utilizing quantum computational methods, quantum molecular dynamics, classical and enhanced sampled molecular dynamics with additional explorations in using machine learning and neural networks to accelerate these calculations and simulations to speed the drug and molecular discovery process. I find that exploring the fundamental theory of the chemical reactions of biomolecular systems is a rewarding experience with vast consequences for the scientific community. This website serves as my personal accountability tracker, where I plan to document a wealth of information about my career experiences. Additionally, it will function as a repository for the knowledge and research that I come across.
 
 <h2><u> My Research Experience: </u></h2>
 
@@ -48,7 +48,7 @@ I joined Dr. Sode’s lab in Fall 2020 and I graduated with my BS in 2021. Thank
 
 In Dr. Sode’s lab I undertook constructing a set of potential energy surfaces for four van der Waals rare-gas CO<sub>2</sub> complexes (Rg-CO<sub>2</sub>; Rg = He, Ne, Kr, Xe). We used permutationally invariant polynomials to construct a potential energy function for each complex and fit these against a set of 44,000 Rg-CO<sub>2</sub> configuration potentials calculated at the CCSD[t] level of theory using Tikhonov regularization. A paper on this is in preparation to be submitted to the Journal of Physical Chemistry A in early 2024.
 
-Recently, I joined Dr. Giulia Palermo’s lab at UCR in Fall 2024 as a doctoral student in biogineering where I am currently exploring the molecular mechanisms of CRISPR-Cas9 systems using a combination of quantum mechanics/molecular mechanics (QM/MM) simulations, classical molecular dynamics (MD) simulations, and machine learning CV generation for enhanced sampling methods.
+Recently, I joined Dr. Giulia Palermo’s lab at UCR in Fall 2024 as a doctoral student in bioengineering where I am currently exploring the molecular mechanisms of CRISPR-Cas9 systems using a combination of quantum mechanics/molecular mechanics (QM/MM) simulations, classical molecular dynamics (MD) simulations, and machine learning CV generation for enhanced sampling methods.
 
 
 For more information on my research, please visit my <a href="/research" >research</a> page

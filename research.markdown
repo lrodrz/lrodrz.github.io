@@ -25,7 +25,7 @@ use_math: true
 <div class="center"> <h2> <b> Palermo Lab </b> </h2> </div>
 <div class="center">
 
-
+<br>
 
 Principal Investigator: Dr. Giulia Palermo 
 
@@ -36,20 +36,22 @@ Principal Investigator: Dr. Giulia Palermo
 <br>
 <br>
 
-<a href="http://www.palermolab.com">PalermoLab.com</a>
+<a href="http://www.palermolab.com">PalermoLab.com</a></div>
 
-</div>
+<br>
+
+<div class="center"> <img src="https://github.com/lrodrz/blog_images/blob/main/dec2025/20p_web_IMG_5996_edited.png?raw=true" width="600" alt="Palermo Lab Image"> </div>
 
 <br>
 
 <p>
 At PalermoLab, My research focuses on developing and applying of advanced classical and quantum mechanical molecular dynamics (MD) simulations to investigate the conformational dynamics and molecular mechanisms of CRISPR Cas systems. </p>
 <p>
-Additionally, in PalermoLab, we explore the use of artificial intellegence algorithms and frameworks for the advancement of molecular dynamics simulatoins to explore the rare-event conformational space. </p>
+Additionally, in PalermoLab, we explore the use of artificial intelligence algorithms and frameworks for the advancement of molecular dynamics simulations to explore the rare-event conformational space. </p>
 <p>
-By employing these computional techniques, I aim to gain a fundamental understanding of DNA/RNA molecular systems and gene editors, ultimately providing mechanistic insights that complement and guide rational experimental design. </p>
+By employing these computational techniques, I aim to gain a fundamental understanding of DNA/RNA molecular systems and gene editors, ultimately providing mechanistic insights that complement and guide rational experimental design. </p>
 
-
+<br>
 
 <div class="center"> <h2> <b> Sode Lab </b> </h2> </div>
 <div class="center">
@@ -60,8 +62,18 @@ Principal Investigator: Dr. Olaseni Sode
 
 <br><br>
 
-<u> Theoretical Computational Chemistry </u>
+<u>Computational Chemistry </u>
 </div>
+
+<br>
+
+<div class="center"> 
+<a href="https://github.com/sodelab/">GitHub.com/sodelab/</a> 
+</div>
+
+<br>
+
+<div class="center"> > <img src="https://github.com/lrodrz/blog_images/blob/main/dec2025/sodelab2024__w.png?raw=true" alt="sodelab" width="600"> </div>
 
 <br>
 
