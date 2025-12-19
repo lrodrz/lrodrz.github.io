@@ -15,13 +15,9 @@ use_math: true
 </style>
 
 
-
 <h1>Artificial Intelligence and Machine Learning</h1>
 
-Thank you for visiting my page on Artificial Intelligence (AI) and Machine Learning. Here, like my other pages, I will be posting updates and information as I learn and explore this topic. Each update will be in the form of a blog post that you can find either on the homepage my blog or in the recent posts in artificial intelligence below.
-
-
-
+Thank you for visiting my page on Artificial Intelligence (AI) and Machine Learning. Here, like my other pages, I will be posting updates and information as I learn and explore this topic. Each update will be in the form of a blog post that you can find either on the homepage my blog or in the recent posts in artificial intelligence below...
 
 
 <div class="recent-posts">
