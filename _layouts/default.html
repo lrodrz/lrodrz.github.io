@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    {% if page.use_math %}
+    <script>
+      window.MathJax = {
+        chtml: {
+          scale: 1.15
+        },
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    {% endif %}
+    
   </head>
   <body>
     <header>
