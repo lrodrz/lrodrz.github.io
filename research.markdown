@@ -73,7 +73,7 @@ Principal Investigator: Dr. Olaseni Sode
 
 <br>
 
-<div class="center"> > <img src="https://github.com/lrodrz/blog_images/blob/main/dec2025/sodelab2024__w.png?raw=true" alt="sodelab" width="600"> </div>
+<div class="center"> <img src="https://github.com/lrodrz/blog_images/blob/main/dec2025/sodelab2024__w.png?raw=true" alt="sodelab" width="600"> </div>
 
 <br>
 
@@ -87,7 +87,10 @@ Principal Investigator: Dr. Olaseni Sode
 <br>
 
 <p>
-Previously, in my masters program at the California State University in Los angeles, I worked in the laboratory of Dr. Olaseni Sode’s laboratory research group. My masters thesis was to characterize weakly attracted van der Waals (vdW) complexes of Rg-CO<sub>2</sub> (Rg = He, Ne, Kr, Xe) using quantum chemistry software and machine learning. Understanding these weakly attracted complexes helped to elucidate weak intermolecular interactions of rare-gas systems.</p>
+Previously, in my masters program at the California State University in Los angeles, I worked in the laboratory of Dr. Olaseni Sode’s laboratory research group. My masters thesis was to characterize weakly attracted van der Waals (vdW) complexes of Rg-CO<sub>2</sub> (Rg = He, Ne, Kr, Xe) using quantum chemistry software and machine learning. Understanding these weakly attracted complexes helped to elucidate weak intermolecular interactions of rare-gas systems.  This project culminated in my very first first-author publication in 2024: Rodriguez, L.; Natalizio, M.; Sode, O. 
+<strong>Theoretical Insights into the Vibrational Structure of Carbon Dioxide Rare-Gas Complexes.</strong> 
+<i>J. Phys. Chem. A</i> <b>2024</b>, <i>128</i> (21), 4199–4205. 
+<a href="https://doi.org/10.1021/acs.jpca.4c00639">https://doi.org/10.1021/acs.jpca.4c00639</a> </p>
 
 For a brief explanation of the fundamentals and motivation for this research check out my <a href='/research/2022/03/27/Research.html'>research update</a> from March of 2022. 
 

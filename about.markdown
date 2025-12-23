@@ -44,9 +44,17 @@ I am a graduate student in Bioengineering at the University of California, River
 
 My first break in research was via the lab of Dr. Yong Ba in 2016 where I explored the synthesis and characterization of beta-cyclodextrin dimers for the inclusion of anti-cancer drugs like sorafenib. Later, I concurrently joined the laboratory of Dr. Micheal Hayes where I investigated the VAC1 knockout of pentatricopeptide repeats in <i>S. lycopersicum</i> and the establishment of CRISPR Cas9 methods/protocols in glyphosate resistance so that the laboratory could have a pipeline protocol for future CRISPR explorations. I was inspired to join his lab based on casual hallway conversations that I would have with him while I worked as an assistant at the university’s office of Environmental Health and Safety. 
 
-I joined Dr. Sode’s lab in Fall 2020 and I graduated with my BS in 2021. Thanks to Dr. Sode’s mentorship, I learned the basics of quantum mechanics (enrolling also in this class), and computational chemistry. This kindled a great passion and curiosity in computational science, which enriched my hobbies of creating and scripting 3D-printed robots. 
+<p>I joined Dr. Sode’s lab in Fall 2020 and I graduated with my BS in 2021. Thanks to Dr. Sode’s mentorship, I learned the basics of quantum mechanics (enrolling also in this class), and computational chemistry. This kindled a great passion and curiosity in computational science, which enriched my hobbies of creating and scripting 3D-printed robots. Later, I continued in Dr. Sode’s lab as a master’s student from Fall 2022 to Spring 2024.
 
-In Dr. Sode’s lab I undertook constructing a set of potential energy surfaces for four van der Waals rare-gas CO<sub>2</sub> complexes (Rg-CO<sub>2</sub>; Rg = He, Ne, Kr, Xe). We used permutationally invariant polynomials to construct a potential energy function for each complex and fit these against a set of 44,000 Rg-CO<sub>2</sub> configuration potentials calculated at the CCSD[t] level of theory using Tikhonov regularization. A paper on this is in preparation to be submitted to the Journal of Physical Chemistry A in early 2024.
+As a master's student in Dr. Sode’s lab, I undertook constructing a set of potential energy surfaces for four van der Waals rare-gas CO<sub>2</sub> complexes (Rg-CO<sub>2</sub>; Rg = He, Ne, Kr, Xe). 
+
+We used a training set composed of over 44,000 unique configurations of Rg-CO<sub>2</sub> calculated at the CCSD(T)-F12b/aug-cc-pVQZ level of theory. These training sets were then used to fit a flexible-monomer two-body potential energy function (PEF) for each complex. Linear and nonlinear cofficients of the PEFs were optimized using Tikhonov regularization which minimized the weighed sum of squared errors between the model and reference energies. 
+
+This project culminated in my very first first-author publication in 2024: Rodriguez, L.; Natalizio, M.; Sode, O. 
+<strong>Theoretical Insights into the Vibrational Structure of Carbon Dioxide Rare-Gas Complexes.</strong> 
+<i>J. Phys. Chem. A</i> <b>2024</b>, <i>128</i> (21), 4199–4205. 
+<a href="https://doi.org/10.1021/acs.jpca.4c00639">https://doi.org/10.1021/acs.jpca.4c00639</a>
+</p>
 
 Recently, I joined Dr. Giulia Palermo’s lab at UCR in Fall 2024 as a doctoral student in bioengineering where I am currently exploring the molecular mechanisms of CRISPR-Cas9 systems using a combination of quantum mechanics/molecular mechanics (QM/MM) simulations, classical molecular dynamics (MD) simulations, and machine learning CV generation for enhanced sampling methods.
 
