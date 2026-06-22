@@ -4,3 +4,14 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
+
+# Photos are hosted in the lrodrz/blog_images repo and referenced by
+# raw.githubusercontent.com URL — do NOT commit raster photos here.
+# Only SVG placeholders/fallbacks belong in assets/images/.
+# (Already-tracked files like archive-hero.webp are unaffected; use `git add -f` to override.)
+assets/images/**/*.jpg
+assets/images/**/*.jpeg
+assets/images/**/*.png
+assets/images/**/*.webp
+assets/images/**/*.avif
+assets/images/**/*.gif

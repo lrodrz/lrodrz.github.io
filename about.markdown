@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 use_math: true
 description: My path from biology and chemistry into computational biophysics and molecular simulation.
-hero_image: /assets/images/june-2026/about-hero.webp
+hero_image: https://raw.githubusercontent.com/lrodrz/blog_images/main/june2026/bwIMG-2148.jpg
 image_alt: Larry Rodriguez speaking to an audience at the UCLA Lake Arrowhead retreat
 eyebrow: Background and research path
 ---
@@ -12,7 +12,7 @@ eyebrow: Background and research path
 <br>
 
 <div class="center">
-<img width="600" height="600" src="/assets/images/june-2026/larry-profile.webp" alt="Portrait of Larry Rodriguez" loading="lazy">
+<img width="600" height="600" src="https://raw.githubusercontent.com/lrodrz/blog_images/main/june2026/IMG_0057%20-%20Copy.JPG" alt="Portrait of Larry Rodriguez" loading="lazy">
 <p>Larry Rodriguez, computational biophysics researcher and author of Larry's Blog.</p>
 </div>
 
