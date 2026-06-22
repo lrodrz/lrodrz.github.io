@@ -4,6 +4,7 @@ title:  "ARCHIVED: Artificial Intelligence and Machine Learning"
 author: Larry Rodriguez
 date:   2025-12-18 10:51:18 -0700
 categories: artificialintelligence
+tags: [artificial-intelligence]
 # comments: false  # if you want to disable comments on a specific post
 ---
 
@@ -158,4 +159,3 @@ For a comprehensive introduction to machine learning, I reccommend <a href="http
     </h4>
   {% endfor %}
 </div>
-

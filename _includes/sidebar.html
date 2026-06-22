@@ -1,0 +1,20 @@
+<aside class="sidebar" aria-label="About Larry and featured topics">
+  <section class="sidebar-section author-card">
+    <p class="section-label">About the author</p>
+    <img class="author-avatar" src="{{ site.profile_image | relative_url }}" alt="{{ site.author | escape }}" width="600" height="600" loading="lazy">
+    <h2>{{ site.author | escape }}</h2>
+    <p>{{ site.sidebar_description | default: site.description }}</p>
+    {% include socials.html %}
+  </section>
+
+  <section class="sidebar-section">
+    <p class="section-label">Explore topics</p>
+    <nav class="topic-links" aria-label="Research topics">
+      {% for topic in site.data.topics %}
+        <a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
+      {% endfor %}
+    </nav>
+  </section>
+
+  <a class="text-link" href="{{ '/archive/' | relative_url }}">Browse the full archive <span aria-hidden="true">&rarr;</span></a>
+</aside>

@@ -25,6 +25,16 @@ timezone: America/Los_Angeles
 description: >- # this means to ignore newlines until "baseurl:"
   Larry Rodriguez's personal blog about computational biophysics, molecular
   simulation, artificial intelligence, chemistry, gene editing, and beyond.
+tagline: Scientific notes on molecules, computation, and the process of learning.
+sidebar_description: Computational biophysicist writing about molecular simulation, machine learning, chemistry, and research in progress.
+home_hero_image: "/assets/images/june-2026/home-hero.webp"
+home_hero_image_small: "/assets/images/june-2026/home-hero-1024.webp"
+home_hero_alt: "Rocky coastline beneath a clear blue sky"
+default_hero_image: "/assets/images/placeholders/global-hero.svg"
+default_page_hero_image: "/assets/images/placeholders/page-hero.svg"
+default_post_hero_image: "/assets/images/placeholders/post-hero.svg"
+profile_image: "/assets/images/june-2026/larry-profile.webp"
+social_image: "/assets/images/placeholders/social-card.svg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lrodrz.github.io"
 twitter_username: lrodrz1
@@ -33,6 +43,8 @@ youtube: Larry Rodriguez
 youtube_channel: UCtZ_cpSlK51Qhw4ZxPAmNVQ
 youtube_channel_name: Larry Rodriguez
 markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
 # Build settings
 
 # theme: minima
@@ -65,6 +77,7 @@ markdown: kramdown
 theme: jekyll-theme-midnight
 plugins:
 - jekyll-feed
+- jekyll-paginate
 
 
 

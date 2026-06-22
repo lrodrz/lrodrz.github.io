@@ -1,20 +1,46 @@
 ---
 layout: default
 ---
-<article>
-  <h1>{{ page.title }}</h1>
-  <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></p>
-  {{ content }}
-{% if page.comments != false %}
-  <div class="comments">
-    <script src="https://utteranc.es/client.js"
-            repo="lrodrz/lrodrz.github.io"
-            issue-term="pathname"
-            label="comments"
-            theme="photon-dark"
-            crossorigin="anonymous"
-            async>
-    </script>
+<div class="reading-progress" data-reading-progress aria-hidden="true"><span></span></div>
+{% include hero.html kind='post' %}
+
+<article class="post-shell">
+  {% if page.toc != false %}<aside class="post-toc" data-toc-container hidden aria-label="Table of contents">
+    <p class="section-label">On this page</p>
+    <nav data-toc></nav>
+  </aside>{% endif %}
+
+  <div class="post-content" data-post-content>
+    {{ content }}
+
+    {% if page.tags %}
+      <footer class="post-footer">
+        <p class="section-label">Filed under</p>
+        <div class="post-tags">
+          {% for tag in page.tags %}<a href="{{ '/archive/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
+        </div>
+      </footer>
+    {% endif %}
+
+    {% if page.previous or page.next %}
+      <nav class="post-navigation" aria-label="More posts">
+        {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span>Previous</span><strong>{{ page.previous.title | escape }}</strong></a>{% else %}<span></span>{% endif %}
+        {% if page.next %}<a href="{{ page.next.url | relative_url }}"><span>Next</span><strong>{{ page.next.title | escape }}</strong></a>{% endif %}
+      </nav>
+    {% endif %}
+
+    {% if page.comments != false %}
+      <section class="comments" aria-labelledby="comments-title">
+        <h2 id="comments-title">Continue the conversation</h2>
+        <script src="https://utteranc.es/client.js"
+                repo="lrodrz/lrodrz.github.io"
+                issue-term="pathname"
+                label="comments"
+                theme="photon-dark"
+                crossorigin="anonymous"
+                async>
+        </script>
+      </section>
+    {% endif %}
   </div>
-{% endif %}
 </article>

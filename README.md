@@ -31,6 +31,23 @@ bundle exec jekyll serve --livereload
 Use `conda deactivate` when you are finished. On later sessions, only
 `conda activate blog` and the Jekyll command are needed.
 
+## Create a new post
+
+Generate a dated Markdown post with the theme's standard metadata:
+
+```bash
+conda activate blog
+ruby scripts/new_post.rb "A clear post title" \
+  --description "A concise homepage and search summary." \
+  --category research \
+  --tags molecular-dynamics,crispr \
+  --math
+```
+
+The generator refuses invalid dates, empty titles, and filename collisions. See
+[`docs/POST_AUTHORING.md`](docs/POST_AUTHORING.md) for all options, image fields,
+preview instructions, and the complete front-matter contract.
+
 Repository Structure:
 ```
 \____main

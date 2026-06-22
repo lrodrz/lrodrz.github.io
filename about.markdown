@@ -1,34 +1,19 @@
 ---
 layout: page
-title: About-Me
+title: About Me
 permalink: /about/
 use_math: true
+description: My path from biology and chemistry into computational biophysics and molecular simulation.
+hero_image: /assets/images/june-2026/about-hero.webp
+image_alt: Larry Rodriguez speaking to an audience at the UCLA Lake Arrowhead retreat
+eyebrow: Background and research path
 ---
-
-<style type="text/css" media="screen">
-  .center {
-    text-align: center;
-  }
-  p { text-indent: 25px;
-      font-size: 16px; 
-  }
-  grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-  }
-  noind {
-    text-indent: 0;
-  }
-</style>
-
-<div class="center"><h1>About Me</h1></div>
 
 <br>
 
 <div class="center">
-<img width="600" img src="https://i.ibb.co/PjhhGp7/IMG-2148.jpg" alt="Cal State LA: Annenberg Science Complex">
-<p>Picture: My flash talk presentation at the minority opportunities in research (MORE) programs UCLA Lake Arrowhead Retreat.</p>
+<img width="600" height="600" src="/assets/images/june-2026/larry-profile.webp" alt="Portrait of Larry Rodriguez" loading="lazy">
+<p>Larry Rodriguez, computational biophysics researcher and author of Larry's Blog.</p>
 </div>
 
 <!-- <div class="container">
@@ -60,4 +45,3 @@ Recently, I joined Dr. Giulia Palermo’s lab at UCR in Fall 2024 as a doctoral 
 
 
 For more information on my research, please visit my <a href="/research" >research</a> page
-

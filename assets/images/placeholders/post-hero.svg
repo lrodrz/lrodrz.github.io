@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Post hero image placeholder</title>
+  <desc id="desc">Dark scientific-grid placeholder for blog post mastheads.</desc>
+  <rect width="1600" height="900" fill="#171816"/>
+  <g fill="none" stroke="#3a3b37" stroke-width="2" opacity=".75">
+    <path d="M0 150h1600M0 300h1600M0 450h1600M0 600h1600M0 750h1600"/>
+    <path d="M200 0v900M400 0v900M600 0v900M800 0v900M1000 0v900M1200 0v900M1400 0v900"/>
+  </g>
+  <path d="M90 610c150-260 290 170 450-80s290 90 470-120 300 170 500-120" fill="none" stroke="#f5c518" stroke-width="12"/>
+  <text x="1480" y="790" text-anchor="end" fill="#f2eee5" font-family="system-ui, sans-serif" font-size="24" font-weight="700">POST HERO PLACEHOLDER</text>
+  <text x="1480" y="825" text-anchor="end" fill="#c5c0b5" font-family="system-ui, sans-serif" font-size="18">Add hero_image in post front matter</text>
+</svg>

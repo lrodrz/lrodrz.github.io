@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Social sharing image placeholder</title>
+  <desc id="desc">Dark Larry's Blog social preview placeholder.</desc>
+  <rect width="1200" height="630" fill="#171816"/>
+  <rect x="64" y="64" width="1072" height="502" fill="#20211f" stroke="#3a3b37" stroke-width="2"/>
+  <path d="M64 500 350 230l210 180 210-260 366 350v66H64Z" fill="#292a27"/>
+  <text x="105" y="200" fill="#f5c518" font-family="system-ui, sans-serif" font-size="34" font-weight="700" letter-spacing="6">LARRY'S BLOG</text>
+  <text x="105" y="300" fill="#f2eee5" font-family="Georgia, serif" font-size="68" font-weight="700">Scientific notes,</text>
+  <text x="105" y="380" fill="#f2eee5" font-family="Georgia, serif" font-size="68" font-weight="700">research and process.</text>
+</svg>

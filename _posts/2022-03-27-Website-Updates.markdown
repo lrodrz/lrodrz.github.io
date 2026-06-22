@@ -4,6 +4,7 @@ title:  "Website Updates"
 author: Larry Rodriguez
 date:   2022-05-28 00:00:18 -0700
 categories: updates
+tags: [site-updates]
 # comments: false  # if you want to disable comments on a specific post
 ---
 
@@ -146,4 +147,4 @@ Running `bundle update` will rebuild your snapshot from scratch, using only
 the gems in your Gemfile, which may resolve the conflict.
 {% endhighlight %}
 
-I haven't been able to find much in the way of an solution for this issue so for now what seems to work is just setting everything back into the original theme and leaving it as is for now. 
+I haven't been able to find much in the way of an solution for this issue so for now what seems to work is just setting everything back into the original theme and leaving it as is for now.

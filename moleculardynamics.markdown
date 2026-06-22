@@ -1,21 +1,13 @@
 ---
 layout: page
-title: "Molecular-Dynamics"
+title: "Molecular Dynamics"
 permalink: /moleculardynamics/
 use_math: true
+description: Notes on using molecular dynamics simulations to study biological systems.
+hero_image: /assets/images/placeholders/page-hero.svg
+image_alt: Molecular dynamics page masthead placeholder
+eyebrow: Research topic
 ---
-
-<style type="text/css" media="screen">
-  .center {
-    text-align: center;
-  }
-  p { text-indent: 25px;
-      font-size: 16px; 
-  }
-</style>
-
-
-<h1>Molecular Dynamics</h1>
 
 
 <p>
