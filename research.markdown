@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 use_math: true
 description: Current and previous work in computational biophysics and theoretical chemistry.
-hero_image: /assets/images/june-2026/research-hero.webp
+hero_image: https://raw.githubusercontent.com/lrodrz/blog_images/main/june2026/IMG_8284.JPG
 image_alt: Equations written across a chalkboard beside a green science-fiction figure
 eyebrow: Research portfolio
 ---
