@@ -38,7 +38,7 @@ use_math: true
 
 <h2><u> Some Background on Me: </u></h2>
 
-I am a graduate student in Bioengineering at the University of California, Riverside under the advisement Dr. Giulia Palermo (We are soon moving to UCLA!).  I studied Biology and biochemistry as my undergraduate major at Cal State LA and graduated with my master’s in chemistry in 2024 under the advisement of Dr. Olaseni Sode. My long term career plan is become a research scientist exploring the molecular basis of biological reactions, exploring electronic, and vibrational structures in the subfield of theoretical chemistry utilizing quantum computational methods, quantum molecular dynamics, classical and enhanced sampled molecular dynamics with additional explorations in using machine learning and neural networks to accelerate these calculations and simulations to speed the drug and molecular discovery process. I find that exploring the fundamental theory of the chemical reactions of biomolecular systems is a rewarding experience with vast consequences for the scientific community. This website serves as my personal accountability tracker, where I plan to document a wealth of information about my career experiences. Additionally, it will function as a repository for the knowledge and research that I come across.
+I am a graduate student in Bioengineering at the University of California, Riverside under the advisement Dr. Giulia Palermo (We are soon moving to UCLA!).  I studied Biology and biochemistry as my undergraduate major at Cal State LA and graduated with my master’s in chemistry in 2024 under the advisement of Dr. Olaseni Sode. My long term career plan is become a research scientist exploring the molecular basis of biological reactions, exploring electronic, and vibrational structures in the subfield of theoretical chemistry utilizing quantum computational methods, quantum molecular dynamics, classical and enhanced sampled molecular dynamics with additional explorations in using machine learning and neural networks to accelerate these calculations and simulations to speed the drug and molecular discovery process. I find that exploring the fundamental theory of the chemical reactions of biomolecular systems is a rewarding experience with vast consequences for the scientific community. Larry's Blog serves as my personal accountability tracker, where I document my career experiences and maintain a repository for the knowledge and research I encounter.
 
 <h2><u> My Research Experience: </u></h2>
 
@@ -60,5 +60,4 @@ Recently, I joined Dr. Giulia Palermo’s lab at UCR in Fall 2024 as a doctoral 
 
 
 For more information on my research, please visit my <a href="/research" >research</a> page
-
 

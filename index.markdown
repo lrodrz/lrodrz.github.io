@@ -34,12 +34,12 @@ noind {
 <p><b>Picture:</b> The Bakersfield Fox Theater in Bakersfield, CA. My Hometown </p></div>
 <!-- must put the p and div at the end of the sentence here  -->
 
-<h2><u>A Kind Welcome: </u></h2>
+<h2><u>Welcome to Larry's Blog</u></h2>
 
-Welcome to the blog! I launched this blog on March 27, 2022. This blog is intended to document my journey as a computational biophysicist and theoretical computational chemist. Here I plan to document my research and career progress. To learn more about me, please visit the "About Me" tab on the header bar of this website. I have also segmented my main research areas into separate pages that can be accessed from the header bar. 
+I launched this blog on March 27, 2022 to document my journey as a computational biophysicist and theoretical computational chemist. Here I share research and career updates, explain topics I am learning, and keep a chronological record of my work. To learn more about me, visit the "About Me" page. My main research areas remain available as topic pages in the header.
 
-<h2><u>Comments live! and Welcome!: </u></h2>
-As of December 2025, I have enabled comments on my blog posts via the <a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer">Utterances</a> repository. If you would like to leave a comment on any of my blog posts, please feel free to do so! I welcome all constructive criticism and feedback and am excited to engage with the community. 
+<h2><u>Join the Conversation</u></h2>
+Comments are available on blog posts through <a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer">Utterances</a>. Constructive criticism, questions, and feedback are welcome.
 
 <h2><u>Featured Picture: </u></h2>
 <!-- picture paragraph -->
@@ -51,12 +51,10 @@ This month I am showcasing a picture of the Fox Theater in Bakersfield, CA. This
 <!-- end picture paragraph -->
 
 
-<h2><u>Blog Details:</u></h2>
+<h2><u>About the Blog</u></h2>
 <!-- no ind is defined above, its for indentation -->
 <noind> 
-If you would like to know more about the sites construction and see the source code for the blog, check out my github repository at<a href="https://github.com/lrodrz">
-    lrodrz
-</a>
+To learn how the blog is built or browse its source, visit the <a href="https://github.com/lrodrz/lrodrz.github.io">Larry's Blog repository</a> on GitHub.
 </noind>
 
 
@@ -71,7 +69,6 @@ If you would like to know more about the sites construction and see the source c
     </h4>
   {% endfor %}
 </div>
-
 
 
 

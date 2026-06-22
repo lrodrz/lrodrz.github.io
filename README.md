@@ -1,4 +1,35 @@
-# Chronos Website 
+# Larry's Blog
+
+The source for Larry Rodriguez's personal blog about computational biophysics,
+molecular simulation, artificial intelligence, chemistry, gene editing, and
+related research.
+
+## Ubuntu installation with Conda
+
+From the repository root, create the `blog` environment and install the locked
+Jekyll dependencies:
+
+```bash
+conda create --yes --name blog --channel conda-forge --override-channels \
+  ruby=3.2.2 make compilers pkg-config
+conda activate blog
+gem install bundler --version 2.5.5 --no-document
+
+# Make conda-forge's RubyGems launchers resolve the environment's Ruby binary.
+ln -sfn ../../../bin/ruby "$CONDA_PREFIX/share/rubygems/bin/ruby"
+
+bundle _2.5.5_ install
+```
+
+Start the local site and open <http://localhost:4000>:
+
+```bash
+conda activate blog
+bundle exec jekyll serve --livereload
+```
+
+Use `conda deactivate` when you are finished. On later sessions, only
+`conda activate blog` and the Jekyll command are needed.
 
 Repository Structure:
 ```
@@ -13,7 +44,7 @@ If you're reading this you're probably at my github page:
 
 https://github.com/lrodrz/lrodrz.github.io
 
-If you would like to view the website, the website is at: 
+The published blog is available at:
 
 https://lrodrz.github.io
 
@@ -41,21 +72,21 @@ setup the gems:
 
 $`bundle install`
 
-Launch the static site generator: 
+Launch the blog locally:
 
 $`bundle exec jekyll serve`
 
 or 
 
-$`bash chronos.sh`
+$`bash blogstart.sh`
 
 
 
-In case you wanted to follow my footsteps and build your own website here is some information about how I put together this website/github-page.
+If you would like to build a similar blog, here is some information about how I put together this GitHub Pages site.
 
 <br>
 
-The website was built using jekyll and the following guide: 
+The blog was built using Jekyll and the following guide:
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 
 The standard Jekyll directory structure can be found at: 
@@ -68,11 +99,11 @@ https://jekyllrb.com/docs/structure/
 
 <b><u>December 2025:</b></u>
 
-Currently, I am going to work on adding comments to my website. This way I can get feedback, and perhaps some encouragement to continue adding more information to my blog. 
+Comments are available on blog posts so readers can leave feedback and discuss the topics covered.
 
 I'm planning on using the utterances repository: https://utteranc.es/
 
-Also, perhaps as I get some tutorials or more information on this blog I will add a donation button to help people buy me a coffee or two if they feel like I helped them out. As a scientist, I do hope that my contributions make an impact in other's lives so this is a way to both get additional encouragment and measure the value that I am giving others out there. 
+As the archive grows, I may add ways for readers to support tutorials and other useful material.
 
 https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
 

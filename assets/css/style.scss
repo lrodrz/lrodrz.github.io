@@ -29,6 +29,13 @@ header nav a:hover {
   text-decoration: underline;
 }
 
+header nav a:focus-visible,
+.socials-bar a:focus-visible,
+main a:focus-visible {
+  outline: 0.125rem solid #f5c518;
+  outline-offset: 0.25rem;
+}
+
 
 /* Center site title + subtitle */
 
