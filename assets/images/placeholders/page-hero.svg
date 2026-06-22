@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Page hero image placeholder</title>
+  <desc id="desc">Dark abstract placeholder for topic and archive page mastheads.</desc>
+  <rect width="1600" height="700" fill="#20211f"/>
+  <g fill="none" stroke="#3a3b37" stroke-width="2">
+    <path d="M0 110h1600M0 220h1600M0 330h1600M0 440h1600M0 550h1600"/>
+    <path d="M210 0v700M510 0v700M810 0v700M1110 0v700M1410 0v700"/>
+  </g>
+  <path d="m0 590 420-330 300 210 260-300 620 420v110H0Z" fill="#292a27"/>
+  <text x="1490" y="590" text-anchor="end" fill="#f5c518" font-family="system-ui, sans-serif" font-size="22" font-weight="700">PAGE HERO PLACEHOLDER</text>
+  <text x="1490" y="625" text-anchor="end" fill="#c5c0b5" font-family="system-ui, sans-serif" font-size="18">Replace with a wide 16:7 image</text>
+</svg>

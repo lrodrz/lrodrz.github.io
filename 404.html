@@ -1,25 +1,14 @@
 ---
 permalink: /404.html
 layout: default
+title: Page Not Found
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section class="not-found shell">
+  <p class="section-label">Error 404</p>
+  <h1>This page left the notebook.</h1>
+  <p>The address may have changed, or the page may never have existed.</p>
+  <div class="not-found-actions">
+    <a href="{{ '/' | relative_url }}">Return home</a>
+    <a href="{{ '/archive/' | relative_url }}">Browse the archive</a>
+  </div>
+</section>

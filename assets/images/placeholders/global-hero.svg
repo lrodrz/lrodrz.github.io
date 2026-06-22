@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Global hero image placeholder</title>
+  <desc id="desc">Dark geometric placeholder for the main Larry's Blog masthead image.</desc>
+  <rect width="1600" height="900" fill="#171816"/>
+  <path d="M0 660 430 260l260 240 310-390 600 550v240H0Z" fill="#292a27"/>
+  <circle cx="1240" cy="210" r="170" fill="#f5c518" opacity=".18"/>
+  <g fill="none" stroke="#f5c518" stroke-width="3" opacity=".45">
+    <path d="M120 150h560M120 190h390M930 710h520"/>
+  </g>
+  <text x="1480" y="790" text-anchor="end" fill="#f2eee5" font-family="system-ui, sans-serif" font-size="24" font-weight="700">GLOBAL HERO PLACEHOLDER</text>
+  <text x="1480" y="825" text-anchor="end" fill="#c5c0b5" font-family="system-ui, sans-serif" font-size="18">Replace with a 16:9 photograph</text>
+</svg>

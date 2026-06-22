@@ -1,0 +1,33 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header" data-site-header>
+  <div class="shell nav-shell">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title | escape }} home">
+      {{ site.title | escape }}
+    </a>
+
+    <div class="nav-actions">
+      <button class="icon-button search-button" type="button" data-search-open aria-label="Search the blog">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m16 16 5 5"></path>
+        </svg>
+      </button>
+      <button class="menu-button" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation">
+        <span class="menu-button-label">Menu</span>
+        <span class="menu-bars" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+
+    <nav class="primary-nav" id="primary-navigation" data-nav-panel aria-label="Primary navigation">
+      <ul>
+        {% for item in site.data.navigation %}
+          {% assign active = false %}
+          {% if page.url == item.url %}{% assign active = true %}{% endif %}
+          <li>
+            <a href="{{ item.url | relative_url }}"{% if active %} class="is-active" aria-current="page"{% endif %}>{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

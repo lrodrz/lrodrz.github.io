@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "active_work_id": "larrys-blog-hux-inspired-theme",
+  "works": {
+    "larrys-blog-hux-inspired-theme": {
+      "work_id": "larrys-blog-hux-inspired-theme",
+      "active_plan": ".omo/plans/larrys-blog-hux-inspired-theme.md",
+      "plan_name": "larrys-blog-hux-inspired-theme",
+      "session_ids": ["codex:root"],
+      "status": "complete",
+      "worktree_path": null
+    }
+  }
+}

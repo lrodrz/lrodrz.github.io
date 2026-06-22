@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photograph placeholder</title>
+  <desc id="desc">Dark circular portrait placeholder for Larry Rodriguez.</desc>
+  <rect width="600" height="600" fill="#20211f"/>
+  <circle cx="300" cy="220" r="118" fill="#3a3b37"/>
+  <path d="M105 560c12-145 91-222 195-222s183 77 195 222" fill="#3a3b37"/>
+  <circle cx="300" cy="300" r="265" fill="none" stroke="#f5c518" stroke-width="8" opacity=".65"/>
+  <text x="300" y="550" text-anchor="middle" fill="#c5c0b5" font-family="system-ui, sans-serif" font-size="24">PROFILE PHOTO PLACEHOLDER</text>
+</svg>

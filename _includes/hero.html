@@ -1,0 +1,54 @@
+{% assign hero_kind = include.kind | default: 'page' %}
+{% if hero_kind == 'home' %}
+  {% assign hero_image = site.home_hero_image | default: site.default_hero_image %}
+  {% assign hero_alt = site.home_hero_alt | default: site.title %}
+  {% assign hero_title = site.title %}
+  {% assign hero_subtitle = site.tagline | default: site.description %}
+  {% assign hero_width = 1920 %}
+  {% assign hero_height = 1080 %}
+{% else %}
+  {% if hero_kind == 'post' %}
+    {% assign hero_image = page.hero_image | default: site.default_post_hero_image %}
+    {% assign hero_width = 1600 %}
+    {% assign hero_height = 900 %}
+  {% else %}
+    {% assign hero_image = page.hero_image | default: site.default_page_hero_image %}
+    {% assign hero_width = 1600 %}
+    {% assign hero_height = 700 %}
+  {% endif %}
+  {% assign hero_alt = page.image_alt | default: page.title %}
+  {% assign hero_title = page.title %}
+  {% assign hero_subtitle = page.subtitle | default: page.description %}
+{% endif %}
+
+<section class="hero hero-{{ hero_kind }}" aria-labelledby="hero-title">
+  <img class="hero-image" src="{{ hero_image | relative_url }}"{% if hero_kind == 'home' and site.home_hero_image_small %} srcset="{{ site.home_hero_image_small | relative_url }} 1024w, {{ hero_image | relative_url }} 1920w" sizes="100vw"{% endif %} alt="{{ hero_alt | escape }}" width="{{ hero_width }}" height="{{ hero_height }}"{% if hero_kind == 'home' %} fetchpriority="high"{% endif %}>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="shell hero-content">
+    {% if hero_kind == 'post' and page.tags %}
+      <div class="hero-tags" aria-label="Post tags">
+        {% for tag in page.tags %}<a href="{{ '/archive/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
+      </div>
+    {% elsif hero_kind != 'home' %}
+      <p class="eyebrow">{{ page.eyebrow | default: site.title }}</p>
+    {% endif %}
+    <h1 id="hero-title">{{ hero_title | escape }}</h1>
+    {% if hero_subtitle %}<p class="hero-subtitle">{{ hero_subtitle | escape }}</p>{% endif %}
+    {% if hero_kind == 'post' %}
+      <p class="hero-meta">
+        <span>{{ page.author | default: site.author | escape }}</span>
+        <span aria-hidden="true">/</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        <span aria-hidden="true">/</span>
+        <span data-reading-time>Reading time</span>
+      </p>
+    {% endif %}
+  </div>
+  {% if page.image_credit %}
+    <p class="hero-credit">
+      {% if page.image_credit_url %}<a href="{{ page.image_credit_url }}" rel="noopener noreferrer">{% endif %}
+      {{ page.image_credit | escape }}
+      {% if page.image_credit_url %}</a>{% endif %}
+    </p>
+  {% endif %}
+</section>

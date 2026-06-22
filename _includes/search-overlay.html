@@ -1,0 +1,20 @@
+<dialog class="search-dialog" data-search-dialog data-search-index="{{ '/search.json' | relative_url }}" aria-labelledby="search-title">
+  <div class="search-dialog-inner">
+    <div class="search-header">
+      <div>
+        <p class="section-label">Search Larry's Blog</p>
+        <h2 id="search-title">Find a post or topic</h2>
+      </div>
+      <button class="icon-button" type="button" data-search-close aria-label="Close search">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M5 5l14 14M19 5 5 19"></path></svg>
+      </button>
+    </div>
+    <label class="search-field">
+      <span class="sr-only">Search posts</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+      <input type="search" data-search-input placeholder="Try molecular dynamics" autocomplete="off">
+    </label>
+    <p class="search-status" data-search-status aria-live="polite">Start typing to search titles, descriptions, and tags.</p>
+    <div class="search-results" data-search-results></div>
+  </div>
+</dialog>

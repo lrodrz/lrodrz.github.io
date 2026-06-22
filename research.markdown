@@ -3,25 +3,11 @@ layout: page
 title: "Research"
 permalink: /research/
 use_math: true
+description: Current and previous work in computational biophysics and theoretical chemistry.
+hero_image: /assets/images/june-2026/research-hero.webp
+image_alt: Equations written across a chalkboard beside a green science-fiction figure
+eyebrow: Research portfolio
 ---
-<style type="text/css" media="screen">
-  .center {
-    text-align: center;
-  }
-  p { text-indent: 25px;
-      font-size: 16px; 
-  }
-  grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-  }
-  noind {
-    text-indent: 0;
-  }
-</style>
-
-
 <div class="center"> <h2> <b> Palermo Lab </b> </h2> </div>
 <div class="center">
 

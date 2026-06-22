@@ -1,4 +1,46 @@
 ---
 layout: default
 ---
-{{ content }}
+{% include hero.html kind='home' %}
+
+<section class="content-section">
+  <div class="shell content-grid">
+    <div class="post-feed" aria-label="Recent posts">
+      <div class="section-heading">
+        <p class="section-label">Latest writing</p>
+        <h2>Notes from the workbench</h2>
+      </div>
+
+      {% assign visible_posts = paginator.posts | default: site.posts %}
+      {% for post in visible_posts %}
+        <article class="post-preview">
+          <a class="post-preview-link" href="{{ post.url | relative_url }}">
+            <h2>{{ post.title | escape }}</h2>
+            {% if post.subtitle %}<p class="post-subtitle">{{ post.subtitle | escape }}</p>{% endif %}
+            <p class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncate: 260 }}</p>
+          </a>
+          <p class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            <span aria-hidden="true">/</span>
+            <span>{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+            {% if post.categories.first %}<span aria-hidden="true">/</span><span>{{ post.categories.first }}</span>{% endif %}
+          </p>
+          {% if post.tags %}
+            <div class="post-tags" aria-label="Tags">
+              {% for tag in post.tags %}<a href="{{ '/archive/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+
+      {% if paginator.total_pages > 1 %}
+        <nav class="pagination" aria-label="Post pagination">
+          {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer posts</a>{% else %}<span></span>{% endif %}
+          {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">Older posts &rarr;</a>{% endif %}
+        </nav>
+      {% endif %}
+    </div>
+
+    {% include sidebar.html %}
+  </div>
+</section>
