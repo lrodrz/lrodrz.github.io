@@ -33,7 +33,16 @@ Use `conda deactivate` when you are finished. On later sessions, only
 
 ## Create a new post
 
-Generate a dated Markdown post with the theme's standard metadata:
+The quickest path is the interactive launcher. It needs nothing but `bash` — no
+Conda or Ruby — and prompts you through every field with a numbered category menu
+(Artificial Intelligence, Molecular Dynamics, Biophysics, Genetic Engineering,
+Chemistry, Updates) plus yes/no toggles for math, table of contents, and comments:
+
+```bash
+./scripts/new-post.sh
+```
+
+A flag-based Ruby generator is also available for scripting:
 
 ```bash
 conda activate blog
@@ -44,9 +53,11 @@ ruby scripts/new_post.rb "A clear post title" \
   --math
 ```
 
-The generator refuses invalid dates, empty titles, and filename collisions. See
-[`docs/POST_AUTHORING.md`](docs/POST_AUTHORING.md) for all options, image fields,
-preview instructions, and the complete front-matter contract.
+Both refuse invalid dates, empty titles, and filename collisions. Posts no longer
+need a per-post `<style>` block — paragraph indentation and `.container` image
+centering live in `assets/css/style.scss`, and math is enabled by the
+`use_math: true` flag. See [`docs/POST_AUTHORING.md`](docs/POST_AUTHORING.md) for
+all options, image fields, preview instructions, and the front-matter contract.
 
 Repository Structure:
 ```
@@ -114,6 +125,25 @@ https://jekyllrb.com/docs/structure/
 ## Features: 
 
 
+<b><u>June 2026:</b></u>
+
+Refactored the site onto a Hux-inspired custom theme. The `_layouts`, `_includes`,
+and `_sass`/`assets` directories now live in the repo and are version-controlled
+directly (no longer hidden inside an external theme gem).
+
+Added an interactive post scaffolder, `scripts/new-post.sh`. It runs in pure
+`bash` (no Conda/Ruby needed), offers a numbered category menu, and toggles math,
+table of contents, and comments per post.
+
+Removed the per-post `<style>` block. Paragraph indentation and `.container` image
+centering are now defined once in `assets/css/style.scss`, so every post inherits
+them automatically.
+
+Repaired MathJax. The retired `cdn.mathjax.org` endpoint was replaced with
+MathJax 3 served from jsDelivr (`_includes/mathjax_support.html`), so LaTeX now
+renders again on any post with `use_math: true`.
+
+
 <b><u>December 2025:</b></u>
 
 Comments are available on blog posts so readers can leave feedback and discuss the topics covered.
@@ -124,7 +154,8 @@ As the archive grows, I may add ways for readers to support tutorials and other 
 
 https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
 
-Possibly change the theme to dark theme: 
+Shipped a dark theme. The site first migrated to the Midnight theme and has since
+moved to the custom Hux-inspired theme described in the June 2026 notes above.
 
 https://github.com/pages-themes/midnight?tab=readme-ov-file
 
@@ -159,4 +190,10 @@ https://benlansdell.github.io/computing/mathjax/
 
 <br>
 
-<b>Note:</b> From jekylls website since I bootstrapped this website from a $`jekyll new` command from jekyll then `_layouts`, `_includes` and `_sass` are not to be found in my repo but are actually in my install files for the theme I'm using which is minima. Therefore I added all of the contents of `_includes` and the folder itself to my repo and along with the mathjax support html in order to get the LaTeX support that I wanted. After deploying the website I got the desired effect. 
+<b>Note (historical):</b> This site was originally bootstrapped from `jekyll new`
+on the minima theme, where `_layouts`, `_includes`, and `_sass` lived inside the
+theme gem rather than the repo. To get LaTeX support back then, the `_includes`
+folder (including the MathJax support HTML) was vendored into the repo. As of the
+June 2026 refactor the site runs a fully self-contained custom Hux-inspired theme,
+so all of those directories are version-controlled here directly, and MathJax is
+loaded from MathJax 3 on jsDelivr.

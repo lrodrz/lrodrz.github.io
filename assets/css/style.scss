@@ -236,6 +236,9 @@ p { text-wrap: pretty; }
 .page-content h2, .post-content h2 { margin-top: var(--space-12); font-size: clamp(1.5rem, 3vw, 2rem); }
 .page-content h3, .post-content h3 { margin-top: var(--space-8); font-size: 1.25rem; }
 .page-content img, .post-content img { margin: var(--space-8) auto; }
+.post-content p { text-indent: 25px; }
+.post-content .container { text-align: center; }
+.post-content .container p { text-indent: 0; }
 pre { position: relative; overflow-x: auto; padding: var(--space-6); border: 1px solid var(--border-default); background: var(--surface-code); }
 code { font-family: var(--font-mono); }
 :not(pre) > code { padding: 0.12em 0.4em; border: 1px solid var(--border-default); border-radius: 4px; background: var(--surface-code); color: var(--text-primary); font-size: 0.9em; }
