@@ -20,7 +20,7 @@
     <meta property="og:image" content="{{ social_image | absolute_url }}">
     <meta name="twitter:card" content="summary_large_image">
     {% feed_meta %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
     {% if page.use_math %}
     <script>

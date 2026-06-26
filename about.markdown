@@ -9,39 +9,31 @@ image_alt: Larry Rodriguez speaking to an audience at the UCLA Lake Arrowhead re
 eyebrow: Background and research path
 ---
 
-<br>
+<figure class="profile-figure">
+  <img width="600" height="600" src="https://raw.githubusercontent.com/lrodrz/blog_images/main/june2026/IMG_0057%20-%20Copy.JPG" alt="Portrait of Larry Rodriguez" loading="lazy">
+  <figcaption>Larry Rodriguez, computational biophysics researcher and author of Larry's Blog.</figcaption>
+</figure>
 
-<div class="center">
-<img width="600" height="600" src="https://raw.githubusercontent.com/lrodrz/blog_images/main/june2026/IMG_0057%20-%20Copy.JPG" alt="Portrait of Larry Rodriguez" loading="lazy">
-<p>Larry Rodriguez, computational biophysics researcher and author of Larry's Blog.</p>
-</div>
+<section class="page-section" markdown="1">
+## Some background on me
 
-<!-- <div class="container">
-<img width="600" img src="https://i.ibb.co/SNKLbTp/csulapic.png" alt="Cal State LA: Annenberg Science Complex">
-<p>Picture: CSULA with the Annenberg Science Complex shown. By: Me!</p>
-</div> -->
+I am a graduate student in Bioengineering at the University of California, Riverside under the advisement Dr. Giulia Palermo. I studied Biology and biochemistry as my undergraduate major at Cal State LA and graduated with my master's in chemistry in 2024 under the advisement of Dr. Olaseni Sode.
 
-<h2><u> Some Background on Me: </u></h2>
+My long term career plan is become a research scientist exploring the molecular basis of biological reactions, electronic and vibrational structures, quantum computational methods, quantum molecular dynamics, classical and enhanced sampled molecular dynamics, and machine learning approaches that can accelerate molecular discovery.
 
-I am a graduate student in Bioengineering at the University of California, Riverside under the advisement Dr. Giulia Palermo (We are soon moving to UCLA!).  I studied Biology and biochemistry as my undergraduate major at Cal State LA and graduated with my master’s in chemistry in 2024 under the advisement of Dr. Olaseni Sode. My long term career plan is become a research scientist exploring the molecular basis of biological reactions, exploring electronic, and vibrational structures in the subfield of theoretical chemistry utilizing quantum computational methods, quantum molecular dynamics, classical and enhanced sampled molecular dynamics with additional explorations in using machine learning and neural networks to accelerate these calculations and simulations to speed the drug and molecular discovery process. I find that exploring the fundamental theory of the chemical reactions of biomolecular systems is a rewarding experience with vast consequences for the scientific community. Larry's Blog serves as my personal accountability tracker, where I document my career experiences and maintain a repository for the knowledge and research I encounter.
+Larry's Blog serves as my personal accountability tracker, where I document my career experiences and maintain a repository for the knowledge and research I encounter.
+</section>
 
-<h2><u> My Research Experience: </u></h2>
+<section class="page-section" markdown="1">
+## My research experience
 
-My first break in research was via the lab of Dr. Yong Ba in 2016 where I explored the synthesis and characterization of beta-cyclodextrin dimers for the inclusion of anti-cancer drugs like sorafenib. Later, I concurrently joined the laboratory of Dr. Micheal Hayes where I investigated the VAC1 knockout of pentatricopeptide repeats in <i>S. lycopersicum</i> and the establishment of CRISPR Cas9 methods/protocols in glyphosate resistance so that the laboratory could have a pipeline protocol for future CRISPR explorations. I was inspired to join his lab based on casual hallway conversations that I would have with him while I worked as an assistant at the university’s office of Environmental Health and Safety. 
+My first break in research was via the lab of Dr. Yong Ba in 2016 where I explored the synthesis and characterization of beta-cyclodextrin dimers for the inclusion of anti-cancer drugs like sorafenib. Later, I concurrently joined the laboratory of Dr. Micheal Hayes where I investigated the VAC1 knockout of pentatricopeptide repeats in <i>S. lycopersicum</i> and the establishment of CRISPR Cas9 methods/protocols in glyphosate resistance.
 
-<p>I joined Dr. Sode’s lab in Fall 2020 and I graduated with my BS in 2021. Thanks to Dr. Sode’s mentorship, I learned the basics of quantum mechanics (enrolling also in this class), and computational chemistry. This kindled a great passion and curiosity in computational science, which enriched my hobbies of creating and scripting 3D-printed robots. Later, I continued in Dr. Sode’s lab as a master’s student from Fall 2022 to Spring 2024.
+I joined Dr. Sode's lab in Fall 2020 and I graduated with my BS in 2021. Thanks to Dr. Sode's mentorship, I learned the basics of quantum mechanics and computational chemistry. Later, I continued in Dr. Sode's lab as a master's student from Fall 2022 to Spring 2024.
 
-As a master's student in Dr. Sode’s lab, I undertook constructing a set of potential energy surfaces for four van der Waals rare-gas CO<sub>2</sub> complexes (Rg-CO<sub>2</sub>; Rg = He, Ne, Kr, Xe). 
+As a master's student in Dr. Sode's lab, I constructed a set of potential energy surfaces for four van der Waals rare-gas CO<sub>2</sub> complexes (Rg-CO<sub>2</sub>; Rg = He, Ne, Kr, Xe). This project culminated in my first first-author publication in 2024: Rodriguez, L.; Natalizio, M.; Sode, O. <strong>Theoretical Insights into the Vibrational Structure of Carbon Dioxide Rare-Gas Complexes.</strong> <i>J. Phys. Chem. A</i> <b>2024</b>, <i>128</i> (21), 4199-4205. <a href="https://doi.org/10.1021/acs.jpca.4c00639">https://doi.org/10.1021/acs.jpca.4c00639</a>.
 
-We used a training set composed of over 44,000 unique configurations of Rg-CO<sub>2</sub> calculated at the CCSD(T)-F12b/aug-cc-pVQZ level of theory. These training sets were then used to fit a flexible-monomer two-body potential energy function (PEF) for each complex. Linear and nonlinear cofficients of the PEFs were optimized using Tikhonov regularization which minimized the weighed sum of squared errors between the model and reference energies. 
+Recently, I joined Dr. Giulia Palermo's lab at UCR in Fall 2024 as a doctoral student in bioengineering where I am currently exploring the molecular mechanisms of CRISPR-Cas9 systems using a combination of quantum mechanics/molecular mechanics (QM/MM) simulations, classical molecular dynamics (MD) simulations, and machine learning CV generation for enhanced sampling methods.
+</section>
 
-This project culminated in my very first first-author publication in 2024: Rodriguez, L.; Natalizio, M.; Sode, O. 
-<strong>Theoretical Insights into the Vibrational Structure of Carbon Dioxide Rare-Gas Complexes.</strong> 
-<i>J. Phys. Chem. A</i> <b>2024</b>, <i>128</i> (21), 4199–4205. 
-<a href="https://doi.org/10.1021/acs.jpca.4c00639">https://doi.org/10.1021/acs.jpca.4c00639</a>
-</p>
-
-Recently, I joined Dr. Giulia Palermo’s lab at UCR in Fall 2024 as a doctoral student in bioengineering where I am currently exploring the molecular mechanisms of CRISPR-Cas9 systems using a combination of quantum mechanics/molecular mechanics (QM/MM) simulations, classical molecular dynamics (MD) simulations, and machine learning CV generation for enhanced sampling methods.
-
-
-For more information on my research, please visit my <a href="/research" >research</a> page
+<p class="page-callout">For more information on my research, visit my <a href="/research">research page</a>.</p>
