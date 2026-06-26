@@ -1,10 +1,34 @@
 # Writing Posts
 
-Posts remain ordinary Markdown files in `_posts/`. The generator creates the filename and standard front matter used by the new theme.
+Posts remain ordinary Markdown files in `_posts/`. A generator creates the filename and standard front matter used by the Hux-inspired theme.
 
-## Create a Post
+Posts no longer carry a per-post `<style>` block: paragraph indentation and `.container` image centering live in `assets/css/style.scss`, and math is enabled purely by the `use_math: true` flag (loaded via `_includes/head.html`).
 
-With the `blog` Conda environment active:
+## Create a Post (interactive)
+
+The quickest path is the interactive launcher. It needs nothing but `bash` — no Conda or Ruby — and can be run from anywhere in the repo:
+
+```bash
+./scripts/new-post.sh
+```
+
+It walks you through every field with prompts and a numbered category menu:
+
+```
+Choose a category:
+  1. Artificial Intelligence
+  2. Molecular Dynamics
+  3. Biophysics
+  4. Genetic Engineering
+  5. Chemistry
+  6. Updates
+```
+
+Picking a category pre-fills a sensible default tag. You are then asked for tags, an optional subtitle/description, the hero image and its alt text, and three yes/no toggles: **math (MathJax)**, **table of contents**, and **comments**. The script derives the slug and date, writes `_posts/YYYY-MM-DD-a-clear-post-title.markdown`, and refuses to overwrite an existing file.
+
+## Create a Post (flag-based)
+
+If you prefer a non-interactive command — handy for scripting — the original Ruby generator is still available with the `blog` Conda environment active:
 
 ```bash
 ruby scripts/new_post.rb "A clear post title" \
