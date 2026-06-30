@@ -17,11 +17,13 @@ eyebrow: Background and research path
 <section class="page-section" markdown="1">
 ## Some background on me
 
-I am a graduate student in Bioengineering at the University of California, Riverside under the advisement Dr. Giulia Palermo. I studied Biology and biochemistry as my undergraduate major at Cal State LA and graduated with my master's in chemistry in 2024 under the advisement of Dr. Olaseni Sode.
+I am a Ph.D. student in Chemistry and Biochemistry at the University of California, Los Angeles under the advisement of Dr. Giulia Palermo. I began my Ph.D. in Bioengineering at the University of California, Riverside before transferring to UCLA alongside Dr. Palermo's research group. I studied Biology and Biochemistry as an undergraduate at Cal State LA before earning my master's degree in Chemistry in 2024 under the advisement of Dr. Olaseni Sode.
 
-My long term career plan is become a research scientist exploring the molecular basis of biological reactions, electronic and vibrational structures, quantum computational methods, quantum molecular dynamics, classical and enhanced sampled molecular dynamics, and machine learning approaches that can accelerate molecular discovery.
+My long-term goal is to become a research scientist studying the molecular mechanisms that govern biological systems. I am particularly interested in molecular dynamics, enhanced sampling methods, computational biophysics, quantum chemistry, machine learning, and the growing intersection between artificial intelligence and molecular discovery. More broadly, I enjoy learning about the tools, theories, and technologies that help us better understand the natural world.
 
-Larry's Blog serves as my personal accountability tracker, where I document my career experiences and maintain a repository for the knowledge and research I encounter.
+This Blog serves as my personal research journal and accountability tracker. Here I write about my experiences as a graduate student, document what I am learning, explore ideas that I find interesting, and keep track of the questions that I have yet to answer. My hope is that, over time, this blog becomes a record not only of what I learned, but also of how I learned to think as a scientist.
+
+
 </section>
 
 <section class="page-section" markdown="1">

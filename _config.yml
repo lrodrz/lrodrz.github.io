@@ -31,8 +31,11 @@ home_hero_image: "https://raw.githubusercontent.com/lrodrz/blog_images/main/june
 # home_hero_image_small: external image has no responsive derivative; single src is used
 home_hero_alt: "Rocky coastline beneath a clear blue sky"
 default_hero_image: "/assets/images/placeholders/global-hero.svg"
-default_page_hero_image: "/assets/images/placeholders/page-hero.svg"
-default_post_hero_image: "/assets/images/placeholders/post-hero.svg"
+default_page_hero_image: "/assets/images/defaults/post-hero-default.webp"
+default_post_hero_image: "/assets/images/defaults/post-hero-default.webp"
+# Themed hero defaults, chosen by post category or page topic when no hero_image is set
+default_post_hero_image_ai: "/assets/images/defaults/post-hero-ai.webp"
+default_post_hero_image_research: "/assets/images/defaults/post-hero-research.webp"
 profile_image: "https://raw.githubusercontent.com/lrodrz/blog_images/main/june2026/IMG_0057%20-%20Copy.JPG"
 social_image: "/assets/images/placeholders/social-card.svg"
 baseurl: "" # the subpath of your site, e.g. /blog

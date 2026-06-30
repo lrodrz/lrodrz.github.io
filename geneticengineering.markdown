@@ -4,8 +4,7 @@ title: "Genetic Engineering"
 permalink: /geneticengineering/
 use_math: true
 description: Literature notes and personal insights on gene editing, CRISPR-Cas9, medicine, and biotechnology.
-hero_image: /assets/images/placeholders/page-hero.svg
-image_alt: Genetic engineering page masthead placeholder
+image_alt: Colorful network cabling and switches in a server rack
 eyebrow: Research topic
 ---
 

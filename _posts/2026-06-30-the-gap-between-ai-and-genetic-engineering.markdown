@@ -4,8 +4,7 @@ title:  "The Gap Between AI and Genetic Engineering"
 author: Larry Rodriguez
 date:   2026-06-30 02:24:35 -0700
 categories: Genetic Engineering
-tags: biology, chemistry, AI
-hero_image: /assets/images/placeholders/post-hero.svg
+tags: [biology, chemistry, AI]
 image_alt: "The Gap Between AI and Genetic Engineering"
 #image_credit: "Photographer Name"        # optional
 #image_credit_url: "https://source-link"  # optional

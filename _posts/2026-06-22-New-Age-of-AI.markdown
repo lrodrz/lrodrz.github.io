@@ -5,7 +5,6 @@ author: Larry Rodriguez
 date:   2026-06-22 00:00:18 -0700
 categories: Artificial Intelligence
 tags: [artificial-intelligence]
-hero_image: /assets/images/june-2026/archive-hero.webp
 image_alt: "New Age of AI"
 #image_credit: "Photographer Name"                # optional
 #image_credit_url: "https://source-link.com"      # optional

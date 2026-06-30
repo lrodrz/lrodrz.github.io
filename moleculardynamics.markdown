@@ -4,8 +4,7 @@ title: "Molecular Dynamics"
 permalink: /moleculardynamics/
 use_math: true
 description: Notes on using molecular dynamics simulations to study biological systems.
-hero_image: /assets/images/placeholders/page-hero.svg
-image_alt: Molecular dynamics page masthead placeholder
+image_alt: Colorful network cabling and switches in a server rack
 eyebrow: Research topic
 ---
 

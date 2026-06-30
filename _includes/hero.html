@@ -7,15 +7,29 @@
   {% assign hero_width = 1920 %}
   {% assign hero_height = 1080 %}
 {% else %}
+  {% comment %}
+    No custom hero_image: pick a themed default by topic.
+    Posts use their category; pages use their title + URL. AI -> AI default,
+    research -> research default, everything else -> the global default.
+  {% endcomment %}
   {% if hero_kind == 'post' %}
-    {% assign hero_image = page.hero_image | default: site.default_post_hero_image %}
+    {% capture hero_topic_key %}{{ page.categories | join: ' ' }}{% endcapture %}
+    {% assign topic_default_hero = site.default_post_hero_image %}
     {% assign hero_width = 1600 %}
     {% assign hero_height = 900 %}
   {% else %}
-    {% assign hero_image = page.hero_image | default: site.default_page_hero_image %}
+    {% capture hero_topic_key %}{{ page.title }} {{ page.url }}{% endcapture %}
+    {% assign topic_default_hero = site.default_page_hero_image %}
     {% assign hero_width = 1600 %}
     {% assign hero_height = 700 %}
   {% endif %}
+  {% assign hero_topic_key = hero_topic_key | downcase | replace: ' ', '' %}
+  {% if hero_topic_key contains 'artificialintelligence' %}
+    {% assign topic_default_hero = site.default_post_hero_image_ai %}
+  {% elsif hero_topic_key contains 'research' %}
+    {% assign topic_default_hero = site.default_post_hero_image_research %}
+  {% endif %}
+  {% assign hero_image = page.hero_image | default: topic_default_hero %}
   {% assign hero_alt = page.image_alt | default: page.title %}
   {% assign hero_title = page.title %}
   {% assign hero_subtitle = page.subtitle | default: page.description %}

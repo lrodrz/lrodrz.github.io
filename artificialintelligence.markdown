@@ -4,8 +4,7 @@ title: "Artificial Intelligence"
 permalink: /artificialintelligence/
 use_math: true
 description: Experiments, explanations, and research notes in artificial intelligence and machine learning.
-hero_image: /assets/images/placeholders/page-hero.svg
-image_alt: Artificial intelligence page masthead placeholder
+image_alt: A desktop computer build with a large CPU cooler and motherboard on a workbench
 eyebrow: Research topic
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ARCHIVED: Artificial Intelligence and Machine Learning"
+title:  "Artificial Intelligence and Machine Learning"
 author: Larry Rodriguez
 date:   2025-12-18 10:51:18 -0700
 categories: artificialintelligence
