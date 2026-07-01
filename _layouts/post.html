@@ -22,6 +22,8 @@ layout: default
       </footer>
     {% endif %}
 
+    {% include related-posts.html %}
+
     {% if page.previous or page.next %}
       <nav class="post-navigation" aria-label="More posts">
         {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span>Previous</span><strong>{{ page.previous.title | escape }}</strong></a>{% else %}<span></span>{% endif %}

@@ -424,6 +424,19 @@ noind { display: block; }
 .post-navigation a { display: grid; max-width: 46%; }
 .post-navigation a:last-child { text-align: right; }
 .post-navigation span { color: var(--text-tertiary); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.related-posts { margin-top: var(--space-16); padding-top: var(--space-8); border-top: 1px solid var(--border-default); }
+.related-posts h2 { margin-top: 0; margin-bottom: var(--space-6); }
+.related-grid { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: var(--space-4); }
+.related-card { display: flex; }
+.related-card a { display: flex; flex-direction: column; gap: var(--space-2); width: 100%; padding: var(--space-5); border: 1px solid var(--border-default); border-radius: 0.75rem; background: var(--surface-secondary); color: var(--text-primary); text-decoration: none; transition: border-color 200ms ease, transform 200ms var(--ease-standard); }
+.related-card a:hover { border-color: var(--accent-primary); transform: translateY(-0.125rem); }
+.related-card-meta { color: var(--text-tertiary); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
+.related-card-title { margin: 0; font-size: 1.125rem; line-height: 1.25; }
+.related-card a:hover .related-card-title { color: var(--accent-primary); }
+.related-card-excerpt { margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
+.related-card-tags { margin-top: auto; padding-top: var(--space-2); display: flex; flex-wrap: wrap; gap: var(--space-1); }
+.related-card-tag { padding: 0.1rem var(--space-2); border-radius: 999px; background: var(--accent-subtle); color: var(--accent-primary); font-size: 0.7rem; font-weight: 600; }
+
 .comments { margin-top: var(--space-16); padding-top: var(--space-8); border-top: 1px solid var(--border-default); }
 .comments h2 { margin-top: 0; }
 

@@ -5,7 +5,7 @@ date:   2022-04-04 09:56:18 -0700
 categories: artificialintelligence
 author: Larry Rodriguez
 use_math: true
-tags: "machine-learning"
+tags: [artificial-intelligence, machine-learning]
 # comments: false  # if you want to disable comments on a specific post
 ---
 

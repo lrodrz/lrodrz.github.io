@@ -1,0 +1,58 @@
+{% comment %}
+  Related posts by shared tags. No plugins: we scan posts in tiers (3+ shared
+  tags, then 2+, then 1+) so stronger matches surface first, dedupe by URL, and
+  stop at `max_related`. The section only renders if at least one match exists.
+{% endcomment %}
+{% assign max_related = 3 %}
+{% assign related_shown = 0 %}
+{% assign used_urls = ',' %}
+
+{% capture related_cards %}
+  {% if page.tags and page.tags.size > 0 %}
+    {% assign thresholds = '3,2,1' | split: ',' %}
+    {% for t in thresholds %}
+      {% assign t_num = t | plus: 0 %}
+      {% for post in site.posts %}
+        {% if related_shown >= max_related %}{% break %}{% endif %}
+        {% unless post.url == page.url %}
+          {% assign url_token = post.url | append: ',' %}
+          {% unless used_urls contains url_token %}
+            {% assign shared = 0 %}
+            {% capture shared_tags %}{% endcapture %}
+            {% for tag in post.tags %}
+              {% if page.tags contains tag %}
+                {% assign shared = shared | plus: 1 %}
+                {% capture shared_tags %}{{ shared_tags }}<span class="related-card-tag">{{ tag }}</span>{% endcapture %}
+              {% endif %}
+            {% endfor %}
+            {% if shared >= t_num %}
+              <li class="related-card">
+                <a href="{{ post.url | relative_url }}">
+                  <span class="related-card-meta">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                  </span>
+                  <h3 class="related-card-title">{{ post.title | escape }}</h3>
+                  {% if post.subtitle %}<p class="related-card-excerpt">{{ post.subtitle | escape }}</p>{% endif %}
+                  <span class="related-card-tags">{{ shared_tags }}</span>
+                </a>
+              </li>
+              {% assign used_urls = used_urls | append: url_token %}
+              {% assign related_shown = related_shown | plus: 1 %}
+            {% endif %}
+          {% endunless %}
+        {% endunless %}
+      {% endfor %}
+      {% if related_shown >= max_related %}{% break %}{% endif %}
+    {% endfor %}
+  {% endif %}
+{% endcapture %}
+
+{% if related_shown > 0 %}
+  <section class="related-posts" aria-labelledby="related-title">
+    <p class="section-label">Related reading</p>
+    <h2 id="related-title">More on these topics</h2>
+    <ul class="related-grid">
+      {{ related_cards }}
+    </ul>
+  </section>
+{% endif %}

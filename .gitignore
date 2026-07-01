@@ -12,6 +12,5 @@ vendor
 assets/images/**/*.jpg
 assets/images/**/*.jpeg
 assets/images/**/*.png
-assets/images/**/*.webp
 assets/images/**/*.avif
 assets/images/**/*.gif
